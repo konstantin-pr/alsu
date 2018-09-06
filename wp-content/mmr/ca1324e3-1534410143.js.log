@@ -1,0 +1,8 @@
+2018-08-28T16:53:00+00:00 - MERGED:
+ - jquery-ui-datepicker - /wp-includes/js/jquery/ui/datepicker.min.js
+ - eventchamp-fixed-sidebar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/fixed-sidebar.js
+ - eventchamp-fixed-header - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/fixed-header.js
+ - moment - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/moment.min.js
+2018-08-28T17:05:40+00:00 - COMPRESSING WITH MINIFY (PHP exec not available or java not found)
+2018-08-28T17:05:40+00:00 - GZIPPED - /var/www/u0480146/data/www/dailyconf.com/wp-content/mmr/ca1324e3-1534410143.min.js.gz
+2018-08-28T17:05:40+00:00 - COMPRESSION COMPLETE - 4.63K saved

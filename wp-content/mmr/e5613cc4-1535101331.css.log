@@ -1,0 +1,12 @@
+2018-08-29T11:28:33+00:00 - MERGED:
+ - bootstrap - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/bootstrap.min.css
+ - fontawesome - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/fontawesome.min.css
+ - scrollbar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/scrollbar.css
+ - select - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/select.css
+ - swiper - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/swiper.min.css
+ - plyr-io - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/plyr.min.css
+ - fullcalendar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/fullcalendar.min.css
+ - eventchamp - https://dailyconf.com/wp-content/themes/eventchamp/style.css
+ - wp-fastest-cache-toolbar - https://dailyconf.com/wp-content/plugins/wp-fastest-cache/css/toolbar.css
+ - yoast-seo-adminbar - https://dailyconf.com/wp-content/plugins/wordpress-seo/css/dist/adminbar-800.min.css
+ - js_composer_front - https://dailyconf.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css

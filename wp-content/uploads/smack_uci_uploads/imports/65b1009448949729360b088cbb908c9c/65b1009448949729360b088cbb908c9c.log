@@ -1,0 +1,15 @@
+ File has been used for this event: test1 - Лист2 (2).csv
+ Type of the imported file: csv
+ Revision of the which is used: 2
+ Mode of event: Insert
+ Total no of records: 8
+ Rows handled on each iterations (Based on your server configuration): 1
+ File used to import data into: event (event)
+[2018-08-24 10:16:52] Message: Inserted event ID: 2833,  Status: publish location: Montreal, Canada Tags: games eventcat: gamedev country: Canada  Click here to verify - Web View | Admin View 
+[2018-08-24 10:16:53] Message: Inserted event ID: 2834,  Status: publish location: Singapore Tags: games eventcat: gamedev country: Singapore  Click here to verify - Web View | Admin View 
+[2018-08-24 10:16:53] Message: Inserted event ID: 2835,  Status: publish location: Austin, TX. USA Tags: games eventcat: gamedev country: USA  Click here to verify - Web View | Admin View 
+[2018-08-24 10:16:54] Message: Inserted event ID: 2836,  Status: publish location: Birmingham, UK Tags: games, investments eventcat: gamedev country: UK  Click here to verify - Web View | Admin View 
+[2018-08-24 10:16:54] Message: Inserted event ID: 2837,  Status: publish location: Birmingham, UK Tags: games eventcat: gamedev country: UK  Click here to verify - Web View | Admin View 
+[2018-08-24 10:16:55] Message: Inserted event ID: 2838,  Status: publish location: Miami, FL, USA Tags: games eventcat: gamedev country: USA  Click here to verify - Web View | Admin View 
+[2018-08-24 10:16:55] Message: Inserted event ID: 2839,  Status: publish location: Montreal, Canada Tags: games eventcat: gamedev country: Canada  Click here to verify - Web View | Admin View 
+[2018-08-24 10:16:56] Message: Inserted event ID: 2840,  Status: publish location: Berlin, Canada Tags: games eventcat: gamedev country: Germany  Click here to verify - Web View | Admin View 

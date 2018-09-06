@@ -1,0 +1,2928 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/post_features_panel.php:222
+msgid " - to:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1214
+msgid " Create popping custom responsive layouts with sidebars and widgets in just a few clicks. Choose from variety of overlays, positioning, page visibility, active period, open/close events, custom styling, custom sidebars and much more."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:19
+msgid " This is a trial version of the statistics for a period of six months."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:291
+msgid "(Statistic collected from: %s %d)"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:42
+#: meta-data-filter/views/add_item_to_data_group.php:94
+msgid "0 or empty mean auto step"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:264
+msgid "12 hours recommended"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/classes/shortcodes.php:2
+msgid "<b>Search form shortcode</b>"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:100
+msgid "AJAX Auto recount"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:1
+msgid "AJAX Pagination Settings"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:108
+#: meta-data-filter/views/widgets/search_form.php:483
+msgid "AJAX items output"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:470
+msgid "AJAX items recount"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/const_links/metabox.php:40
+msgid "ALL IS OK"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search.php:152
+#: meta-data-filter/views/widgets/search_form.php:434
+#: meta-data-filter/views/widgets/search_form.php:475
+msgid "AND"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:151
+msgid "AND/OR behaviour for meta filelds"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:376
+msgid "AND/OR behaviour for taxonomies"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+#: meta-data-filter/views/sort_panel/metabox.php:63
+msgid "ASC"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/const_links/metabox.php:30
+msgid "ATTENTION"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:118
+msgid "ATTENTION: Do not use it if you do not need!! It takes more resources. Use this mode when you have not a lot of items to filter (about 100)"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Add New Category"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Add New Filter Section"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "Add New Sort panel"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/settings.php:16
+msgid "Add link prefix"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/metabox.php:44
+msgid "Add meta key"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:253
+#: meta-data-filter/views/widgets/search_form.php:509
+msgid "Additional taxonomies conditions"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:252
+msgid "Advanced Settings"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:33
+msgid "Advanced options"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:634
+msgid "After Markup"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:260
+msgid "After Markup:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:240
+msgid "All childs below"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:178
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:810
+msgid "Any"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:899
+msgid "Any text notes for customer under subscription form."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/data_meta_box.php:18
+msgid "Append Filter Item"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:202
+msgid "Append drop-down option"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/js/js_vars.php:14
+msgid "Apply"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/mdf_posts_messenger.php:1
+msgid "Are you sure?"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1301
+msgid "Assign"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:240
+msgid "Attention"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+msgid "Attention! Meta key must be begin from medafi_ but can not such the name!!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+msgid "Attention! Meta key must be begin from medafi_!!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:33
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:70
+msgid "Attention! This is the last email. If you want to continue get such emails -> Go by next link and subscribe again"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/show_terms_meta_names.php:106
+msgid "Author: %s"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:93
+msgid "Auto submit"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:458
+msgid "Auto submit form"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:397
+msgid "Beautiful js scroll bars. Sometimes not compatible with some wordpress themes"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:615
+msgid "Before Markup"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:255
+msgid "Before Markup:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:962
+msgid "Better keep search data in sessions, but in some of reasons it sometimes not possible, so set it to transients. But transients make additional queries to data base! Set it to sessions when your search is working fine to exclude case when search doesn't work because data cannot be keeps in the session!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:22
+msgid "Block max height"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "Both"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:95
+msgid "Button Shortcode"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/sort_panel/metabox.php:63
+msgid "Buttons"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:565
+msgid "By author"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "By date"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "By emails count"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:227
+msgid "By logic here must be taxonomies constructor. But, to add more flexibility to the plugin,  taxonomies are selected in the widget. So you can use the same group for different post types, or the same post type but different widgets. If there no taxonomies selected in the widget - nothing will appear on front of site in search form of the widget."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:969
+msgid "Cache dynamic recount number for each item in filter"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1241
+msgid "Cache pages, allow to make a lot of search queries on your site without high load on your server!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1063
+msgid "Cache terms"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:325
+msgid "Calculate Statistics"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/js/js_vars.php:12
+msgid "Cancel"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1894
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Category"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:95
+msgid "Check DB connection"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:537
+msgid "Check it if you want to make ajax searching directly on woocommerce shop page. BUT! It is not possible for 100% because a lot of wordpress themes developers not use in the right way woocommerce hooks woocommerce_before_shop_loop AND woocommerce_after_shop_loop. Works well with native woocommerce themes as Canvas and Primashop for example!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1282
+msgid "Check post types to which filter ID should be assign. Enter right data, do not joke with it!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:70
+msgid "Check post types which should be searched"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:65
+msgid "Check this if you want to make searching by title/content in all posts of the selected post type slug!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:323
+msgid "Choose post type in the statistics settings!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/js/js_vars.php:13
+msgid "Close"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:49
+msgid "Closed"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:103
+msgid "Collect Statistic for"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1140
+msgid "Custom CSS code"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:15
+msgid "Custom name/title for taxonomies"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:87
+msgid "Custom reset link"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:89
+msgid "Custom reset link. Leave this field empty to reset the form inputs ONLY by ajax."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:122
+msgid "Custom reset link/url"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:81
+#: meta-data-filter/views/widgets/search_form.php:128
+msgid "Custom text for search results"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:89
+msgid "DB Name"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+#: meta-data-filter/views/sort_panel/metabox.php:63
+msgid "DESC"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:95
+msgid "Date"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:742
+msgid "Dear [DISPLAY_NAME], we increased the range of our products. Number of new products: [PRODUCT_COUNT]"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+#: meta-data-filter/views/sort_panel/select_filter_panel.php:5
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Default - mm/dd/yy"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/metabox.php:59
+msgid "Default order"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:178
+#: meta-data-filter/views/sort_panel/metabox.php:82
+msgid "Default order by"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:206
+msgid "Default sort panel"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1172
+msgid "Demo sites"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+msgid "Disabled"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Documentation"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/const_links/metabox.php:21
+msgid "Drop here right link only for updating constant link!!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/const_links/metabox.php:18
+msgid "Drop new link here"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/sort_panel/metabox.php:63
+msgid "Drop-down"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:177
+msgid "Drop-down first option title"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:175
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:19
+msgid "Drop-down size"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1247
+msgid "Duplicate, clone, backup, move and transfer an entire site from one location to another."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:214
+msgid "Dynamic post items recount"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:415
+msgid "Dynamic post recount"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1185
+msgid "Easy entry video tutorial"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Edit Categories"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Edit Filter Section"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "Edit Sort panel"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:865
+msgid "Emails count"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+msgid "Enabled"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:210
+msgid "Enabling this mode allows you to set 1 decimal value in post for looking it in range. Options of such drop-down must have names as: 0-500, 501-1000, 1001-2000 and etc..."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:63
+msgid "Enabling this mode allows you to set 2 values in post for range-slider - RANGE 'From' and 'To'. Not possible to reflect this. On the front range-slider is single! Doesn work with WooCommerce functionality."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:119
+msgid "Enabling this mode allows you to set more than 1 value in item for range-slider. For example: 34,45,96 - through comma."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:235
+msgid "Enter any random text in the field and use it in the external cron with link like: %s"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1287
+msgid "Enter filter-category ID"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:451
+msgid "Enter value. Empty means zero."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Europe - dd-mm-yy"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:678
+#: meta-data-filter/views/settings.php:142
+#: meta-data-filter/views/shortcode/options_meta_box.php:256
+#: meta-data-filter/views/widgets/search_form.php:511
+msgid "Example"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:44
+#: meta-data-filter/views/add_item_to_data_group.php:96
+msgid "Example: $"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:200
+msgid "Example: %s,_price. Default order-by of your filtered posts."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:253
+msgid "Example: <b>_price</b>, where <i>_price</i> is reflected meta field key in products of woocommerce.<br /> Reflection synchronizes data with already existing meta keys and makes them searchable!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:83
+#: meta-data-filter/views/widgets/search_form.php:130
+msgid "Example: Found &lt;span&gt;%s&lt;/span&gt; items"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:169
+msgid "Example: One Moment ..."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/metabox.php:101
+msgid "Example: _price^Price"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/settings.php:26
+msgid "Example: http://site.net/<b>mdf</b>/192/man-jackets - <b>mdf</b> is prefix. You can create unlimited count of them. But be careful with such words as <b>category</b> or something from wordpress!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:46
+#: meta-data-filter/views/add_item_to_data_group.php:98
+msgid "Example: €"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:518
+msgid "Exclude 'out of stock' products from search"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+msgid "External Cron"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:798
+msgid "External cron key (is recommended as flexible for timetable)"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:954
+msgid "Filter"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+msgid "Filter `%s` (%s) already has such key. Filter status: `%s`!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:145
+msgid "Filter button text"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1459
+#: meta-data-filter/index.php:1894
+msgid "Filter sequence on front"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Filters sections"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:801
+msgid "For external cron use the next link"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:18
+#: meta-data-filter/views/widgets/search.php:120
+msgid "Found <span>%s</span> items"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:295
+msgid "From"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/show_terms_meta_names.php:132
+#: meta-data-filter/views/shortcode/post_features_panel.php:222
+#: meta-data-filter/views/shortcode/search_panel_terms.php:229
+msgid "From:"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/mdf_posts_messenger.php:1
+msgid "From: "
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/show_terms_meta_names.php:107
+#: meta-data-filter/views/shortcode/search_panel_terms.php:229
+msgid "From:%s %s %s"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:91
+msgid "From^To"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:18
+msgid "Front interface"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Full - DD, d MM, yy"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:506
+msgid "Google charts library not loaded! If site is on localhost just disable statistic extension in tab Extensions!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:331
+msgid "Graphics:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box_html_items.php:7
+#: meta-data-filter/views/shortcode/options_meta_box_html_items.php:36
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:109
+msgid "Hide"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:263
+msgid "Hide [mdf_search_button] on mobile devices"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:270
+msgid "Hide button of search button shortcode on mobile devices"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:123
+msgid "Hide items where count is 0"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:227
+msgid "Hide items where count of items is 0"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:90
+msgid "Hide meta values filter options"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:91
+msgid "Hide meta values filter options necessarily if you are going to filter by taxonomies <b>only</b>!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:104
+msgid "Hide taxonomies values filter options"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:427
+msgid "Hide terms where count of items is 0"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:83
+msgid "Host"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:860
+msgid "How long user will get emails after subscription. "
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:178
+msgid "How many search requests will be catched and written down into the statistical mySQL table per 1 unique user before cron will assemble the data "
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:281
+msgid "How many taxonomies and terms to show on the graphs. Use no more than 10 to understand situation with statistical data"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:195
+msgid "How many taxonomies per one search request will be written down into the statistical mySQL table for 1 unique user. The excess data will be truncated! Number 5 is recommended. More depth - more space in the DataBase will be occupied by the data. "
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:201
+msgid "How to assemble statistic"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:65
+msgid "How to use toggle with the current taxonomy block"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1894
+msgid "Html Items Count"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "ISO 8601 - yy-mm-dd"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/settings.php:27
+msgid "If no one prefix in settings, you can use default prefix <b>mdf</b> only."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1145
+msgid "If you are need to customize something and you don't want to lose your changes after update"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:642
+msgid "If you have a lot of elements in the filter section you can set max-height. Set 0 if you do not need it."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:38
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:87
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:74
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:99
+msgid "If you want to Unsubscribe from this newsletter"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:61
+msgid "Ignore filter-category in wp_query"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:275
+msgid "Ignore sticky posts"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:282
+msgid "Ignore sticky posts in search results"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:23
+msgid "In-Built Pagination"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:923
+msgid "Include Google Map JS on the next pages"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:272
+#: meta-data-filter/views/settings.php:731
+msgid "Include the default stylesheet tw-pagination.css? Pagination will first look for <code>tw-pagination.css</code> in your theme directory (<code>themes/%s</code>)."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:34
+msgid "Info"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1128
+msgid "Init plugin on the next site pages <span style='color: red;'>only</span>"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1209
+msgid "Insert Gallery in post, page and custom post types just in two clicks"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:155
+msgid "Insert meta keys separated by end of line (press enter button)."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:501
+msgid "Ion-Range slider js lib skin for range-sliders of the plugin"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:112
+msgid "Is multi value"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1220
+msgid "It concatenates all scripts and styles, minifies and compresses them, adds expires headers, caches them, and moves styles to the page head, and scripts to the footer"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:233
+msgid "Item Description"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:11
+msgid "Item Name"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:22
+msgid "Item Type"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:238
+msgid "Item meta key"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:409
+msgid "JS CUSTOMIZED CHECKBOXES AND RADIO BUTTONS FOR JQUERY: http://fronteed.com/iCheck/"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1151
+msgid "JavaScript code after AJAX is done"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:762
+msgid "Label"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:78
+msgid "Leave this field empty if you do not need this. Of course each widget and shortcode has such option too."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:124
+msgid "Leave this field empty if you want to use the default value from settings"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:86
+msgid "Leave this field empty if you want to use wordpress or your theme settings."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:16
+msgid "Leave this field empty to show taxonomy name as title. Use syntax like: <b>Country^Region^City</b> to display parents and childs with another titles in first drop-down option."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:179
+msgid "Leave this field empty to use defined in widget string: Any"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Light"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/metabox.php:7
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/metabox.php:16
+msgid "Link SEO prefix"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/metabox.php:30
+msgid "Link SEO suffix"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:345
+msgid "Link and width/height to png icon for tab slideout shortcode"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/const_links/metabox.php:33
+msgid "Link is inspired. Recreate this one on the front on the same browser!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:330
+msgid "Link to png icon for tooltip in widgets and shortcodes"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:46
+msgid "Link to site page where shows searching results"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/settings.php:14
+msgid "Links prefixes"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/js/js_vars.php:11
+msgid "Loading ..."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading balls - experimental"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading bars - experimental"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading bubbles - experimental"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading cubes - experimental"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading cyclone - experimental"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading spin - experimental"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading spinning bubbles - experimental"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Loading spokes - experimental"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:166
+msgid "Loading text"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:613
+msgid "Looks like troubles with JavaScript!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "MDTF Categories"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/utilities.php:3
+msgid "MDTF Custom Utilities"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "MDTF Filters"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/settings.php:3
+msgid "MDTF Marketing Links Settings"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1459
+msgid "MDTF Results Page"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+#: meta-data-filter/views/settings.php:5
+msgid "MDTF Settings"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:2
+msgid "MDTF Shortcodes"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "MDTF Sort panels"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "MDTF Utilities"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:404
+msgid "MDTF cannot create database table for statistic! Make sure that your mysql user has the CREATE privilege! Do it manually using your host panel&amp;phpmyadmin!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1051
+msgid "MDTF cannot create the database table! Make sure that your mysql user has the CREATE privilege! Do it manually using your host panel&phpmyadmin!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:17
+msgid "Main settings"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:711
+msgid "Markup Display"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:265
+msgid "Markup Display:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1269
+msgid "Mass assign filter-category ID to any posts types"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:183
+msgid "Max deep of the search request"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:166
+msgid "Max requests per unique user"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:807
+msgid "Max subscriptions per user"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:269
+msgid "Max terms or taxonomies per graph"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:868
+msgid "Maximum number of emails per one subscribed user. -1 means no limit. "
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:810
+msgid "Maximum number of subscriptions for a single registered user. "
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Medium - d MM, y"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:27
+msgid "Messenger"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:16
+msgid "Meta Data Filter Category"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/page.php:2
+#: meta-data-filter/index.php:1459
+msgid "Meta Data Filter Options"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1459
+msgid "Meta Data Filter Style"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:153
+msgid "Meta data:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/draw_tax_and_meta_var.php:36
+msgid "Meta keys"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:147
+msgid "Meta options"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:19
+msgid "Miscellaneous"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/shortcode/options_meta_box.php:231
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:6
+msgid "Multiple checkbox select"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:107
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "New Category"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "New Filter Section"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:742
+msgid "New Posts"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:742
+msgid "New Posts by your request"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "New Sort panel"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:596
+msgid "Next Page"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:246
+msgid "Next Page:"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+#: meta-data-filter/views/add_item_to_data_group.php:51
+#: meta-data-filter/views/add_item_to_data_group.php:60
+#: meta-data-filter/views/add_item_to_data_group.php:106
+#: meta-data-filter/views/add_item_to_data_group.php:115
+#: meta-data-filter/views/add_item_to_data_group.php:207
+#: meta-data-filter/views/add_item_to_data_group.php:216
+#: meta-data-filter/views/settings.php:1054
+#: meta-data-filter/views/settings.php:1075
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:34
+msgid "No"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "No Categories found"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "No Categories found in Trash"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "No Filter sections found"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "No Filter sections found in Trash"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "No Sort panels found"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "No Sort panels found in Trash"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:366
+msgid "No Taxonomies exists for selected slug"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:1048
+msgid "No items found"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "No limit"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:165
+msgid "No one filter MDTF Category created!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:236
+msgid "No one sort panel created!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:78
+msgid "No posts found"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:91
+msgid "No products found"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+msgid "No term are created for %s"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:49
+msgid "No toogle"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Noir"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:385
+msgid "Not compatible with all wp themes. Uncheck the checkbox it is works bad."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/sort_panel.php:137
+msgid "Not using"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:896
+msgid "Notes for customer"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:10
+msgid "Notice:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search.php:150
+#: meta-data-filter/views/widgets/search_form.php:434
+#: meta-data-filter/views/widgets/search_form.php:475
+msgid "OR"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:647
+msgid "On backend"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:644
+msgid "On front (widget)"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1459
+#: meta-data-filter/js/js_vars.php:10
+msgid "One Moment ..."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:239
+msgid "One child below"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "One month"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "One week"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:49
+msgid "Opened"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:353
+msgid "Options"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1199
+msgid "Order Categories and all custom taxonomies terms (hierarchically) and child terms using a Drag and Drop Sortable javascript capability"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:50
+msgid "Output search template"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:53
+msgid "Output template, search by default. For example: search,archive,content or your custom which is in current wp theme. If you want to set double name template, write it in such manner for example: content-special. If you do not understood - leave search!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:140
+msgid "Overlay image background"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:102
+msgid "Overlay skin"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:130
+msgid "Overlay skin while data loading"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:672
+msgid "Page Anchors"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:285
+msgid "Page Anchors:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:692
+msgid "Page Gap"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:295
+msgid "Page Gap:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:653
+msgid "Page Range"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:275
+msgid "Page Range:"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:1
+#: meta-data-filter/views/settings.php:1075
+msgid "Pages:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:724
+msgid "Pagination CSS File"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:270
+msgid "Pagination CSS File:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:558
+msgid "Pagination Label"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:236
+msgid "Pagination Label:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/metabox.php:8
+msgid "Panel type"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:92
+msgid "Password"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:793
+msgid "Period of emailing to subscribed users. Set it to \"No\" if you going to use external cron. "
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Plainoverlay"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:154
+msgid "Plainoverlay color"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:1048
+msgid "Please set template option in shortcode!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:108
+msgid "Post Count"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:151
+msgid "Post type"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:123
+msgid "Post type:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:97
+msgid "Postfix"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:95
+msgid "Prefix"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/data_meta_box.php:3
+msgid "Prepend Filter Item"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:182
+msgid "Prepend drop-down option"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:99
+msgid "Prettify"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:577
+msgid "Previous Page"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:241
+msgid "Previous Page:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:338
+msgid "Print Graphs"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:873
+msgid "Priority of limitations"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Punk"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box_html_items.php:33
+msgid "Range"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:479
+msgid "Range slider skin"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:5
+msgid "Read"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:23
+msgid "Read How to use here"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1193
+msgid "Recommended plugins"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:246
+msgid "Reflect value from meta key"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:973
+#: meta-data-filter/views/widgets/search.php:232
+msgid "Reset"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:75
+msgid "Reset custom link"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:69
+#: meta-data-filter/views/widgets/search_form.php:109
+msgid "Results output page link"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:75
+#: meta-data-filter/views/widgets/search_form.php:116
+msgid "Results output template"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:83
+msgid "Results per page"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/settings.php:36
+msgid "Save Changes"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1263
+msgid "Save Settings"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Search Categories"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "Search Filter sections"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:43
+msgid "Search Result Page"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "Search Sort panels"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:57
+msgid "Search inside range"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:204
+msgid "Search inside range."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:225
+msgid "Secret key for external cron"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:89
+msgid "See more new products..."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:76
+msgid "See more..."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_front_page_items.php:458
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:338
+msgid "Select author"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:6
+#: meta-data-filter/views/shortcode/options_meta_box.php:15
+msgid "Select filter category"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:287
+msgid "Select period:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:116
+msgid "Select taxonomies and metadata which you want to track for each post type."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:326
+msgid "Select taxonomy(-ies) and/or meta_data (combination) OR leave this field empty to see general data for all the most requested taxonomies"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:301
+msgid "Select the time period for which you want to see statistical data"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:64
+msgid "Server options for statistic"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:23
+msgid "Set 0 if you do not want to set max-height for this taxonomy"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:260
+msgid "Set map info in each post you are going to filter. The data will be applyed on the google map."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:1
+#: meta-data-filter/index.php:1
+msgid "Settings"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/marketing/settings.php:6
+#: meta-data-filter/views/settings.php:9
+msgid "Settings are saved."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Shadow"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1030
+msgid "Short - d M, y"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:95
+msgid "Shortcode"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:275
+msgid "Shortcode front skin"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:48
+msgid "Shortcode options"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:95
+msgid "Shortcode with ID %s doesn exists"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:59
+msgid "Should be enabled to start assembling."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:718
+msgid "Show \"Before Markup\" and \"After Markup\", even if the page list is empty?"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1894
+msgid "Show All"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:267
+msgid "Show Before Markup and After Markup, even if the page list is empty?"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/post_data_form.php:33
+msgid "Show absent items"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:36
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:40
+msgid "Show all child terms at once below"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:12
+msgid "Show as"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:664
+msgid "Show as multiple checkbox select"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:116
+msgid "Show count"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:201
+msgid "Show count of posts in range slider"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:188
+msgid "Show count of posts in select option"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:400
+msgid "Show count of posts/custom"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:240
+msgid "Show filter button after each block"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:138
+#: meta-data-filter/views/widgets/search_form.php:142
+#: meta-data-filter/views/widgets/search_form_tax.php:64
+msgid "Show found items count text"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:176
+msgid "Show near checkbox count of posts"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:131
+#: meta-data-filter/views/widgets/search_form.php:442
+msgid "Show reset button"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/metabox.php:29
+#: meta-data-filter/views/sort_panel/metabox.php:37
+msgid "Show results taxonomies navigation"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:128
+msgid "Show search by author(select)"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:288
+msgid "Show terms childs"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:295
+msgid "Show terms childs always in taxonomies shown as checkboxes"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:28
+msgid "Show/Hide statistic options"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1226
+msgid "Shrink, beautify, track, manage and share any URL on or off of your WordPress website. Create links that look how you want using your own domain name!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:412
+msgid "Skin"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:93
+msgid "Slider step"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/post_data_form.php:8
+#: meta-data-filter/views/widgets/search_form.php:63
+msgid "Slug"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:930
+msgid "Some themes has already included google maps js, so maybe you will not need this option. But if you are need this - you can include it on pages (ID) on which you are using map, not on all pages of your site! Set <b>-1</b> if you want to include it on all pages of your site."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:17
+msgid "Sorry, the trial period of Statistic has expired."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:213
+msgid "Sort options by alphabetical order"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:219
+msgid "Sort options by alphabetical order on the front"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:266
+#: meta-data-filter/views/widgets/search_form.php:502
+msgid "Sort panel"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/metabox.php:42
+msgid "Sort panel meta keys"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "Sort panel options"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "Sort panels"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/sort_panel/metabox.php:54
+msgid "Special words: %s. Example: title^Title"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:37
+#: meta-data-filter/views/settings.php:30
+msgid "Statistic"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+msgid "Statistic -> Statistic options -> \"Stat server options\" inputs should be filled in by right data, another way not possible to collect statistical data!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:306
+msgid "Statistical parameters:"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+msgid "Statistics collection is not enabled. Click on the previous button to see activation drop-down and DataBase options."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:823
+msgid "Subject of the email"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:826
+msgid "Subject of the email. "
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:34
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:71
+msgid "Subscribe"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/mdf_posts_messenger.php:528
+msgid "Subscribe on the current search request"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/mdf_posts_messenger.php:1
+msgid "Subscription"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:839
+msgid "Subscription time"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:1
+msgid "Success! Your changes were successfully saved!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+msgid "Such key already exists in current filter or its the same fileld. Try another key!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:57
+#: meta-data-filter/views/settings.php:1275
+msgid "Supported post types"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:256
+#: meta-data-filter/views/widgets/search_form.php:511
+msgid "Syntax is"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:340
+msgid "Tab slideout icon image settings"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:54
+msgid "Taxomies only in filter"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/draw_tax_and_meta_var.php:21
+msgid "Taxonomies"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:250
+msgid "Taxonomies for the selected slug"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:172
+#: meta-data-filter/views/widgets/search_form.php:246
+msgid "Taxonomies options"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:146
+msgid "Taxonomies:"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:550
+msgid "Taxonomy block is placed here"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:30
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:67
+msgid "Terms"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:2
+msgid "Terms items of \"%s\""
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/utilities.php:7
+msgid "Terms to meta"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:834
+msgid "Text in the body of the email. You can use next variables: [DISPLAY_NAME], [USER_NICENAME], [PRODUCT_COUNT]. "
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:818
+msgid "Text in the email header."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:831
+msgid "Text of the email"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:262
+#: meta-data-filter/views/settings.php:647
+msgid "The HTML markup to display after the pagination code."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:257
+#: meta-data-filter/views/settings.php:628
+msgid "The HTML markup to display before the pagination code."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:302
+#: meta-data-filter/views/settings.php:705
+msgid "The minimum number of pages in a gap before an ellipsis (...) is added. Recommended value: 3"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:292
+#: meta-data-filter/views/settings.php:685
+msgid "The number of links to always show at beginning and end of pagination. Recommended value: 1"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:282
+#: meta-data-filter/views/settings.php:666
+msgid "The number of page links to show before and after the current page. Recommended value: 3"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:641
+msgid "The section max-heigh"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:650
+msgid "The section toggle"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:765
+msgid "The text before subscription block"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:238
+#: meta-data-filter/views/settings.php:571
+msgid "The text/HTML to display before the list of pages."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:248
+#: meta-data-filter/views/settings.php:609
+msgid "The text/HTML to display for the next page link."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:243
+#: meta-data-filter/views/settings.php:590
+msgid "The text/HTML to display for the previous page link."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:96
+msgid "This data is very important for assembling statistics data, so please fill fields very responsibly. To collect statistical data uses a separate MySQL table."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:13
+msgid "This extension is an experimental but with finished arhitecture of collection and keeping the data! If you have an idea about how to improve representation of the statistic data on your site, I mean how do you want to see processed data on the graphs, types of graphs, etc. - create topic <a href=\"%s\" target=\"_blank\">here</a> to discuss it! Be sure that your PHP version is not lower than 5.4."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:103
+msgid "This is woo price, and I want to set range from min price to max price from database"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/mdf_posts_messenger.php:1
+msgid "This link does not work."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1133
+msgid "This option excludes initialization of the plugin on all pages of the site except links in the textarea. One row - one link!<br />Example: http://woocommerce.wp-filter.com/ajaxed-search-7/ - slash in the end of the link should be!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1231
+msgid "This plugin provides an easy to use interface to create and administer custom post types and taxonomies in WordPress."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:95
+msgid "This shortcode does not exists!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:95
+#: meta-data-filter/index.php:1894
+#: meta-data-filter/views/widgets/post_data_form.php:3
+#: meta-data-filter/views/widgets/search_form.php:9
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:490
+msgid "Title for Any"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:495
+msgid "Title for filter button"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:815
+msgid "Title of the email"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:298
+msgid "To"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:160
+msgid "To manage by taxonomies of the selected post type you should press Update button!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:802
+msgid "To reset the key, just delete it here and save the plugin settings OR write by hands your own. Key should be min 16 symbols."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:365
+msgid "To show slugs taxonomies you have to add in selected Meta Data Filter Category a data constructor block of type <b>\"taxonomy\"</b>. It must appear one time only in search form of one widget! Otherwise maybe problems."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:104
+msgid "To use this option please uncheck \"Auto submit\""
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:112
+msgid "To use this option please uncheck \"Auto submit\" and check \"AJAX Auto recount\""
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:19
+msgid "Toggle"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:256
+msgid "Toggle close sign"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:259
+msgid "Toggle close sign on front widget while using toggles for sections."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:247
+msgid "Toggle open sign"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:250
+msgid "Toggle open sign on front widget while using toggles for sections."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:327
+msgid "Tooltip icon image URL"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:334
+msgid "Tooltip max width"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:308
+msgid "Tooltip theme"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:530
+msgid "Try to make shop page AJAXED"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "Two months"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "Two weeks"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box_html_items.php:30
+msgid "Type"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+#: meta-data-filter/js/js_vars.php:56
+msgid "Updated"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:220
+msgid "Use WordPress Cron if your site has a lot of traffic, and external cron if the site traffic is not big. External cron is more predictable with time of execution, but additional knowledge how to set it correctly is required (<i style=\"color: orange;\">External cron will be ready in the next version of the extension</i>)"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:370
+msgid "Use chosen js library for drop-downs in the search forms"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:390
+msgid "Use custom scroll js bar"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:402
+msgid "Use icheck js library for checkboxes"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1156
+msgid "Use it when you are need additional action after AJAX redraw your products in shop page or in page with shortcode!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/const_links/metabox.php:8
+msgid "Use this link on your site"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:43
+msgid "Use this option if you are using title like Country^Region^City"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1121
+msgid "Useful thing when you already set your site IN THE PRODUCTION MODE - its getting terms for filter faster without big MySQL queries! If you actively adds new terms every day or week you can set cron period for cleaning. Another way set: 'not clean cache automatically'!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1027
+msgid "Useful thing when you already started your site and use dynamic recount -> it make recount very fast! Of course if you added new posts which have to be in search results you have to clean this cache! RECOMMENDED to set it to any time-term from the list to avoid query slowing in future!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:86
+msgid "User"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:679
+msgid "Uses ONLY for current section with checkboxes. Not for taxonomies ..."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "View Category"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "View Filter Section"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/sort_panel.php:2
+msgid "View Sort panel"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:5
+msgid "Watch"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:936
+msgid "Where to keep search data"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:891
+msgid "Which limitation has priority. Event after which user stop getting the emails. Both - means that any first event (\"Subscription time\" or \"Emails count\") of two ones, will reset user subscription."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdtf-pagination/tw-pagination.php:1
+msgid "Whoops! There was a problem with the data you posted. Please try again."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1236
+msgid "Widget Logic lets you control on which pages widgets appear using"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:241
+msgid "Will be shown if the searching is not going by default if no panel id is set."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:21
+msgid "WooCommerce"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:1204
+msgid "WooCommerce Currency Switcher – is the plugin that allows you to switch to different currencies and get their rates converted in the real time!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+msgid "WordPress Cron"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:241
+msgid "WordPress Cron period"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1459
+msgid "WordPress Meta Data & Taxonomies Filter plugin can't copy the template file to your current theme from wp-content/plugins/meta-data-filter/views/to_theme/template-meta-data-filter.php. Please upload this file using ftp to your current theme folder from: plugins/meta-data-filter/veiws/to_theme."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:770
+msgid "WordPress cron period"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1532
+#: meta-data-filter/views/add_item_to_data_group.php:50
+#: meta-data-filter/views/add_item_to_data_group.php:61
+#: meta-data-filter/views/add_item_to_data_group.php:107
+#: meta-data-filter/views/add_item_to_data_group.php:116
+#: meta-data-filter/views/add_item_to_data_group.php:208
+#: meta-data-filter/views/add_item_to_data_group.php:217
+#: meta-data-filter/views/settings.php:1075
+#: meta-data-filter/views/widgets/search_form/popup_terms_list.php:35
+msgid "Yes"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/mdf_posts_messenger.php:1
+msgid "You are unsubscribed from the future products newsletters."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/widgets/search_form.php:56
+msgid "You can check more filter categories to enable changing of it on front!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/mdf_posts_messenger.php:1
+msgid "You unsubscribed from the newsletter."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/select_filter_panel.php:13
+msgid "ascending"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:216
+msgid "block max-height"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/page/data_meta_box.php:3
+msgid "category is not selected"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:239
+msgid "change meta key"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically daily"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically each 2 days"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically each 3 days"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically each 4 days"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically each 5 days"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically each 6 days"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically each 7 days"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically hourly"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "clean cache automatically twicedaily"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:995
+#: meta-data-filter/views/settings.php:1089
+msgid "clear cache"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+#: meta-data-filter/views/settings.php:1054
+msgid "daily"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:329
+msgid "default icon"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:344
+msgid "default icon height"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:342
+msgid "default icon url"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:343
+msgid "default icon width"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/sort_panel/select_filter_panel.php:12
+msgid "descending"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:740
+msgid "digits only"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1092
+msgid "do not clean cache automatically"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:192
+msgid "drag and drope"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:527
+msgid "drawing graphs ..."
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/index.php:1
+msgid "each %s days"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:176
+msgid "enter a digit from 1 to ..."
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:15
+msgid "enter item name here"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:512
+msgid "enter latitude"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:520
+msgid "enter longitude"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:530
+msgid "enter pin description"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:143
+msgid "enter placeholder text"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:155
+msgid "enter tag"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:161
+msgid "exact"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:40
+#: meta-data-filter/views/add_item_to_data_group.php:92
+#: meta-data-filter/views/page/draw_back_page_items.php:100
+#: meta-data-filter/views/page/draw_back_page_items.php:394
+msgid "example"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/shortcode/options_meta_box.php:244
+msgid "exluded terms ids for %s. Example: 11,22,33"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:610
+msgid "finished!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:381
+msgid "for shortcodes"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:375
+msgid "for widgets"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:78
+#: meta-data-filter/views/page/draw_back_page_items.php:322
+#: meta-data-filter/views/page/draw_front_page_items.php:685
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:524
+msgid "from"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:38
+msgid "from/to"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+#: meta-data-filter/views/settings.php:1054
+msgid "hourly"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:634
+msgid "integer number"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/page/draw_back_page_items.php:356
+#: meta-data-filter/views/page/draw_back_page_items.php:477
+#: meta-data-filter/views/shortcode/options_meta_box_html_items.php:21
+msgid "is reflected by %s"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/settings.php:349
+msgid "jQuery-ui calendar date format"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:171
+msgid "jQuery-ui calendar: from - to"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:191
+msgid "key for the current option - must be unique"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:527
+#: meta-data-filter/views/page/draw_back_page_items.php:454
+#: meta-data-filter/views/page/draw_back_page_items.php:477
+msgid "key is empty, please check filter data!"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:71
+#: meta-data-filter/views/shortcode/options_meta_box.php:77
+msgid "leave this field empty to use output page from the plugin settings"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:160
+msgid "like"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/page/draw_back_page_items.php:112
+#: meta-data-filter/views/page/draw_back_page_items.php:406
+msgid "max"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:240
+msgid "meta key must be begin from <b>medafi_</b> prefix, another way you will have problems! If you are using this key somewhere in code be ready to change it there!<br /> Change keys please for saved filter and filters items only, not for new and just created!"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/page/draw_back_page_items.php:112
+#: meta-data-filter/views/page/draw_back_page_items.php:406
+msgid "min"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+#: meta-data-filter/views/settings.php:1054
+msgid "min1"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+#: meta-data-filter/views/settings.php:1054
+msgid "monthly"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/item_list_subscr.php:2
+msgid "new"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/index.php:1529
+#: meta-data-filter/views/page/draw_front_page_items.php:827
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:883
+msgid "no available items"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/js/js_vars.php:55
+msgid "no ui sliders in selected mdf category"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:459
+msgid "none"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:148
+msgid "post content"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:147
+msgid "post title"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/widgets/search_form.php:434
+msgid "select category"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:146
+msgid "self"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/classes/shortcodes.php:1048
+msgid "shortcode data is not full: post_id, meta_key"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/widgets/search_form.php:434
+msgid "show AND/OR filter"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:166
+msgid "show as textarea in backend"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:165
+msgid "show as textinput in backend"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:151
+msgid "tag"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/shortcode/options_meta_box.php:215
+msgid "taxonomy custom title"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:273
+msgid "title"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:150
+msgid "title and content on the same time"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/add_item_to_data_group.php:149
+msgid "title or content on the same time"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/views/page/draw_back_page_items.php:79
+#: meta-data-filter/views/page/draw_back_page_items.php:325
+#: meta-data-filter/views/page/draw_front_page_items.php:688
+#: meta-data-filter/views/shortcode/do_mdf_search_form.php:527
+msgid "to"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/show_terms_meta_names.php:132
+#: meta-data-filter/views/shortcode/search_panel_terms.php:229
+msgid "to:"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_posts_messenger/views/show_terms_meta_names.php:107
+#: meta-data-filter/views/shortcode/search_panel_terms.php:229
+msgid "to:%s %s %s"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+#: meta-data-filter/views/settings.php:1054
+msgid "twicedaily"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/views/settings.php:1054
+msgid "twicemonthly"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:38
+#: meta-data-filter/ext/mdf_posts_messenger/views/mdf_email_template.php:87
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:74
+#: meta-data-filter/ext/mdf_posts_messenger/views/woo_email_template.php:99
+msgid "unsubscribe"
+msgstr ""
+
+#. Text in function
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:308
+#: meta-data-filter/views/settings.php:1054
+msgid "weekly"
+msgstr ""
+
+#. Text in echo
+#: meta-data-filter/ext/mdf_stat/views/tabs_content.php:347
+msgid "xxx"
+msgstr ""
