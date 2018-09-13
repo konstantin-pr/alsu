@@ -2,7 +2,7 @@
  - underscore - /wp-includes/js/underscore.min.js
  - customize-base - /wp-includes/js/customize-base.min.js - unminified version used
  - customize-preview - /wp-includes/js/customize-preview.min.js - unminified version used
- - vc_woocommerce-add-to-cart-js - https://dailyconf.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js
+ - vc_woocommerce-add-to-cart-js - http://dailyconf.cf/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js
  - mediaelement-core - /wp-includes/js/mediaelement/mediaelement-and-player.min.js - unminified version used
  - mediaelement-migrate - /wp-includes/js/mediaelement/mediaelement-migrate.min.js - unminified version used
  - wp-mediaelement - /wp-includes/js/mediaelement/wp-mediaelement.min.js - unminified version used

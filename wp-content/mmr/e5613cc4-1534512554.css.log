@@ -1,15 +1,15 @@
 2018-08-20T15:16:10+00:00 - MERGED:
- - bootstrap - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/bootstrap.min.css
- - fontawesome - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/fontawesome.min.css
- - scrollbar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/scrollbar.css
- - select - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/select.css
- - swiper - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/swiper.min.css
- - plyr-io - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/plyr.min.css
- - fullcalendar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/fullcalendar.min.css
- - eventchamp - https://dailyconf.com/wp-content/themes/eventchamp/style.css
- - wp-fastest-cache-toolbar - https://dailyconf.com/wp-content/plugins/wp-fastest-cache/css/toolbar.css
- - yoast-seo-adminbar - https://dailyconf.com/wp-content/plugins/wordpress-seo/css/dist/adminbar-800.min.css
- - js_composer_front - https://dailyconf.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css
+ - bootstrap - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/bootstrap.min.css
+ - fontawesome - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/fontawesome.min.css
+ - scrollbar - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/scrollbar.css
+ - select - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/select.css
+ - swiper - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/swiper.min.css
+ - plyr-io - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/plyr.min.css
+ - fullcalendar - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/fullcalendar.min.css
+ - eventchamp - http://dailyconf.cf/wp-content/themes/eventchamp/style.css
+ - wp-fastest-cache-toolbar - http://dailyconf.cf/wp-content/plugins/wp-fastest-cache/css/toolbar.css
+ - yoast-seo-adminbar - http://dailyconf.cf/wp-content/plugins/wordpress-seo/css/dist/adminbar-800.min.css
+ - js_composer_front - http://dailyconf.cf/wp-content/plugins/js_composer/assets/css/js_composer.min.css
 2018-08-20T15:16:40+00:00 - COMPRESSING CSS
 2018-08-20T15:16:41+00:00 - GZIPPED - /var/www/u0480146/data/www/dailyconf.com/wp-content/mmr/e5613cc4-1534512554.min.css.gz
 2018-08-20T15:16:41+00:00 - COMPRESSION COMPLETE - 12.26K saved

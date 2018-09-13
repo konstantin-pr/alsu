@@ -1,19 +1,19 @@
 2018-08-24T09:02:43+00:00 - MERGED:
- - contact-form-7 - https://dailyconf.com/wp-content/plugins/contact-form-7/includes/js/scripts.js
- - sb_instagram_scripts - https://dailyconf.com/wp-content/plugins/instagram-feed/js/sb-instagram.min.js - unminified version used
- - wc-add-to-cart - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js - unminified version used
- - zoom - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js - unminified version used
- - flexslider - https://dailyconf.com/wp-content/plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js
- - photoswipe - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js - unminified version used
- - photoswipe-ui-default - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js - unminified version used
- - wc-single-product - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js - unminified version used
- - jquery-blockui - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js - unminified version used
- - js-cookie - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js - unminified version used
- - woocommerce - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js - unminified version used
- - wc-cart-fragments - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js - unminified version used
- - bootstrap - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/bootstrap.min.js
- - prettyphoto - https://dailyconf.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js
+ - contact-form-7 - http://dailyconf.cf/wp-content/plugins/contact-form-7/includes/js/scripts.js
+ - sb_instagram_scripts - http://dailyconf.cf/wp-content/plugins/instagram-feed/js/sb-instagram.min.js - unminified version used
+ - wc-add-to-cart - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js - unminified version used
+ - zoom - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js - unminified version used
+ - flexslider - http://dailyconf.cf/wp-content/plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js
+ - photoswipe - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js - unminified version used
+ - photoswipe-ui-default - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js - unminified version used
+ - wc-single-product - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js - unminified version used
+ - jquery-blockui - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js - unminified version used
+ - js-cookie - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js - unminified version used
+ - woocommerce - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js - unminified version used
+ - wc-cart-fragments - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js - unminified version used
+ - bootstrap - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/js/bootstrap.min.js
+ - prettyphoto - http://dailyconf.cf/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js
  - jquery-ui-datepicker - /wp-includes/js/jquery/ui/datepicker.min.js
- - eventchamp-fixed-sidebar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/fixed-sidebar.js
- - eventchamp-fixed-header - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/fixed-header.js
- - moment - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/moment.min.js
+ - eventchamp-fixed-sidebar - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/js/fixed-sidebar.js
+ - eventchamp-fixed-header - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/js/fixed-header.js
+ - moment - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/js/moment.min.js

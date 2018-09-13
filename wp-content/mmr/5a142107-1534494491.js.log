@@ -2,7 +2,7 @@
  - jquery-core - /wp-includes/js/jquery/jquery.js
  - jquery-migrate - /wp-includes/js/jquery/jquery-migrate.min.js - unminified version used
  - jquery-ui-core - /wp-includes/js/jquery/ui/core.min.js
- - meta_data_filter_widget - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/front.js
+ - meta_data_filter_widget - http://dailyconf.cf/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/front.js
 2018-08-20T18:54:57+00:00 - COMPRESSING WITH MINIFY (PHP exec not available or java not found)
 2018-08-20T18:54:57+00:00 - GZIPPED - /var/www/u0480146/data/www/dailyconf.com/wp-content/mmr/5a142107-1534494491.min.js.gz
 2018-08-20T18:54:57+00:00 - COMPRESSION COMPLETE - 9.31K saved

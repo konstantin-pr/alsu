@@ -1,10 +1,10 @@
 2018-08-20T16:13:11+00:00 - MERGED:
- - bootstrap - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/bootstrap.min.css
- - fontawesome - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/fontawesome.min.css
- - scrollbar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/scrollbar.css
- - select - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/select.css
- - swiper - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/swiper.min.css
- - plyr-io - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/plyr.min.css
- - fullcalendar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/css/fullcalendar.min.css
- - eventchamp - https://dailyconf.com/wp-content/themes/eventchamp/style.css
- - js_composer_front - https://dailyconf.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css
+ - bootstrap - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/bootstrap.min.css
+ - fontawesome - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/fontawesome.min.css
+ - scrollbar - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/scrollbar.css
+ - select - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/select.css
+ - swiper - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/swiper.min.css
+ - plyr-io - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/plyr.min.css
+ - fullcalendar - http://dailyconf.cf/wp-content/themes/eventchamp/include/assets/css/fullcalendar.min.css
+ - eventchamp - http://dailyconf.cf/wp-content/themes/eventchamp/style.css
+ - js_composer_front - http://dailyconf.cf/wp-content/plugins/js_composer/assets/css/js_composer.min.css

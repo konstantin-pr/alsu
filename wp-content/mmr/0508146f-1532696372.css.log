@@ -1,6 +1,6 @@
 2018-08-20T15:16:07+00:00 - MERGED:
- - woocommerce-general - https://dailyconf.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css
- - prettyphoto - https://dailyconf.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.min.css
+ - woocommerce-general - http://dailyconf.cf/wp-content/plugins/woocommerce/assets/css/woocommerce.css
+ - prettyphoto - http://dailyconf.cf/wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.min.css
 2018-08-20T15:16:33+00:00 - COMPRESSING CSS
 2018-08-20T15:16:33+00:00 - GZIPPED - /var/www/u0480146/data/www/dailyconf.com/wp-content/mmr/0508146f-1532696372.min.css.gz
 2018-08-20T15:16:33+00:00 - COMPRESSION COMPLETE - 2.00B saved
