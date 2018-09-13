@@ -20,30 +20,32 @@
  */
 
 /* /Optimize: cache options. kean.dev@gmail.com */
- 
-define( 'WP_MEMORY_LIMIT', '256M' );
+
+
+error_reporting(E_ALL);
+define( 'WP_MEMORY_LIMIT', '512M' );
 define( 'WP_MAX_MEMORY_LIMIT', '512M' );
 
 /* /End Optimize */
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'u0480146_dailyco');
+define('DB_NAME', 'dailyconf');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'u0480146');
+define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'Alsu_dailyconf_001');
+define('DB_PASSWORD', 'root');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8mb4');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
-define('DB_COLLATE', '');
+define('DB_COLLATE', 'utf8mb4_unicode_520_ci');
 
 /**#@+
  * Уникальные ключи и соли для аутентификации.
