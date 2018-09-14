@@ -1416,7 +1416,7 @@ msgstr ""
 #: eventchamp-elements/page-builder-elements.php:8600
 msgid ""
 "You can enter a icon. Example: fab fa-wordpress-simple, fas fa-map-marker-"
-"alt. Icon list: https://goo.gl/vdPEsc"
+"alt. Icon list: //goo.gl/vdPEsc"
 msgstr ""
 
 #: eventchamp-elements/page-builder-elements.php:1019

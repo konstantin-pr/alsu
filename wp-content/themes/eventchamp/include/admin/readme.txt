@@ -1,6 +1,6 @@
 === OptionTree ===
 Contributors: valendesigns
-Donate link: https://bit.ly/NuXI3T
+Donate link: //bit.ly/NuXI3T
 Tags: options, theme options, meta boxes
 Requires at least: 3.8
 Tested up to: 4.4
@@ -20,13 +20,13 @@ And, in just a few simple lines of code, save settings to the database with a un
 Also, OptionTree now takes full advantage of the new color schemes introduced in WordPress 3.8, it looks and feels built-in.
 
 #### Theme Integration
-If you're like me, you want to know how everything works. Download and activate the [OptionTree Theme](https://github.com/valendesigns/option-tree-theme) and see first hand how to integrate OptionTree into your own project. I'll walk you through installing OptionTree and you'll get a chance to see all the various options and filters first hand and in the wild.
+If you're like me, you want to know how everything works. Download and activate the [OptionTree Theme](//github.com/valendesigns/option-tree-theme) and see first hand how to integrate OptionTree into your own project. I'll walk you through installing OptionTree and you'll get a chance to see all the various options and filters first hand and in the wild.
 
 #### Contributing
-To contribute or report bugs, please go to the [OptionTree Github](https://github.com/valendesigns/option-tree) repository.
+To contribute or report bugs, please go to the [OptionTree Github](//github.com/valendesigns/option-tree) repository.
 
 #### Sponsorship
-OptionTree is a project partly sponsored by <a href="https://themeforest.net/?ref=valendesigns">ThemeForest</a>, the largest WordPress theme marketplace on the web.
+OptionTree is a project partly sponsored by <a href="//themeforest.net/?ref=valendesigns">ThemeForest</a>, the largest WordPress theme marketplace on the web.
 
 #### Option Types
 This is a complete list of all the available option types that come shipped with OptionTree.
@@ -108,7 +108,7 @@ For a list of all the OptionTree UI display filters refer to the `demo-functions
 
 = Is there a demo theme I can install? =
 
-There sure is, and I'm glad you asked. Download and activate the [OptionTree Theme](https://github.com/valendesigns/option-tree-theme) and get some experience setting up OptionTree on your own with detailed directions and tips.
+There sure is, and I'm glad you asked. Download and activate the [OptionTree Theme](//github.com/valendesigns/option-tree-theme) and get some experience setting up OptionTree on your own with detailed directions and tips.
 
 = Why are my translation files not loading? =
 
@@ -310,13 +310,13 @@ The most likely scenario is your theme already has OptionTree installed in Theme
 * Added action 'ot_header_list' to add additional theme specific list items to the header of OptionTree.
 * Added filter 'ot_upload_text' to change the "Send to OptionTree" text.
 * Added the CSS Class field value to the parent `.format-settings` div in addition to the class being added to the element. Each class is now appended with `-wrap`.
-* Added support for [Composer](https://github.com/composer/composer). Contributors via github @designst.
+* Added support for [Composer](//github.com/composer/composer). Contributors via github @designst.
 * Added support for adding I18n text domains to the exported `theme-options.php` file.
 * Fixed a bug that kept the UI from displaying when using the `ot_type_background_size_choices` filter.
 * Fixed a bug that caused the Gallery option type to save a single space instead of `null`.
 * Fixed the return value of the Background, Measurement, and Typography option types. They now return `null` if no values are saved to the array.
 * Fixed a bug that resulted in a PHP warning if the choices array was set to an empty string.
-* Updated the documentation, including this `readme.txt` and a new demo [OptionTree Theme](https://github.com/valendesigns/option-tree-theme) to parallel OptionTree.
+* Updated the documentation, including this `readme.txt` and a new demo [OptionTree Theme](//github.com/valendesigns/option-tree-theme) to parallel OptionTree.
 * Added filter 'ot_type_radio_image_src' which allows the Radio Image option type source URI to be changed. Contributors via github @bitcommit.
 
 = 2.2.3 =

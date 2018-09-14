@@ -247,7 +247,7 @@ get_header(); ?>
 													$googlemapapi = "AIzaSyCJCkvBbxfRoHwUrj9x3uptUEDodTYGMbo";
 												}
 											?>
-											<iframe width="100%" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=<?php echo esc_attr( $googlemapapi ); ?>&q=<?php echo esc_attr( $event_detailed_address ); ?>"></iframe>
+											<iframe width="100%" height="450" frameborder="0" src="//www.google.com/maps/embed/v1/place?key=<?php echo esc_attr( $googlemapapi ); ?>&q=<?php echo esc_attr( $event_detailed_address ); ?>"></iframe>
 										</div>
 									<?php } ?>
 									<?php if( !empty( $event_google_street_link ) ) { ?>

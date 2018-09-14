@@ -1686,13 +1686,13 @@
 					array(
 						'id' => 'post_video_embed',
 						'label' => esc_html__( 'Video Embed Code', 'eventchamp' ),
-						'desc' => esc_html__( 'You can enter video embed code.', 'eventchamp' ) . esc_attr( '<br><i>' ) . esc_html__( 'Example:', 'eventchamp' ) . htmlspecialchars( ' &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/OYbXaqQ3uuo&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;' ) . esc_attr( '</i>' ),
+						'desc' => esc_html__( 'You can enter video embed code.', 'eventchamp' ) . esc_attr( '<br><i>' ) . esc_html__( 'Example:', 'eventchamp' ) . htmlspecialchars( ' &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube-nocookie.com/embed/OYbXaqQ3uuo&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;' ) . esc_attr( '</i>' ),
 						'type' => 'text'
 					),
 					array(
 						'id' => 'post_audio_embed',
 						'label' => esc_html__( 'Audio Embed Code', 'eventchamp' ),
-						'desc' => esc_html__( 'You can enter audio embed code.', 'eventchamp' ) . esc_attr( '<br><i>' ) . esc_html__( 'Example:', 'eventchamp' ) . htmlspecialchars( ' &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/90909412&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;' ) . esc_attr( '</i>' ),
+						'desc' => esc_html__( 'You can enter audio embed code.', 'eventchamp' ) . esc_attr( '<br><i>' ) . esc_html__( 'Example:', 'eventchamp' ) . htmlspecialchars( ' &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;//w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/90909412&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;' ) . esc_attr( '</i>' ),
 						'type' => 'text'
 					),
 					array(
@@ -2829,7 +2829,7 @@
 	*
 	======*/
 	function eventchamp_options_name() {
-		$web_site = esc_url( 'https://gloriathemes.com' );
+		$web_site = esc_url( '//gloriathemes.com' );
 		$web_site_title = esc_attr( "Gloria Themes" );
 		$html = '<a href="' . esc_url( $web_site ) . '" target="_blank">' . esc_attr( $web_site_title ) . '</a>';
 		return $html;
@@ -2859,7 +2859,7 @@
 	*
 	======*/
 	function eventchamp_theme_options_logo() {
-		$web_site = esc_url( 'https://gloriathemes.com/' );
+		$web_site = esc_url( '//gloriathemes.com/' );
 		$web_site_title = esc_attr( "Gloria Themes" );
 		echo '<li id="option-tree-logo"><span><a href="' . esc_url( $web_site ) . '" target="_blank"></a></span>';
 		$theme_version = wp_get_theme();
@@ -2873,9 +2873,9 @@
 	*
 	======*/
 	function eventchamp_theme_options_header() {
-		$support_site = esc_url( 'https://support.gloriathemes.com/' );
+		$support_site = esc_url( '//support.gloriathemes.com/' );
 		$support_site_title = esc_attr( "Support Center" );
-		$documentation_site = esc_url( 'https://docs.gloriathemes.com/' );
+		$documentation_site = esc_url( '//docs.gloriathemes.com/' );
 		$documentation_site_title = esc_attr( "Theme Documentation" );
 		echo '<li id="option-tree-version"><span><a href="' . esc_url( $support_site ) . '" target="_blank">' . esc_attr( $support_site_title ) . '</a></span></li>';
 		echo '<li id="option-tree-version"><span><a href="' . esc_url( $documentation_site ) . '" target="_blank">' . esc_attr( $documentation_site_title ) . '</a></span></li>';

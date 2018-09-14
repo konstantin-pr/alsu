@@ -951,7 +951,7 @@ function mdf_init_selects() {
     }
 }
 
-//https://fronteed.com/iCheck/
+////fronteed.com/iCheck/
 function mdf_init_checkboxes() {
     try {
         if (mdf_use_custom_icheck == 0) {
@@ -1198,7 +1198,7 @@ function mdf_init_multislect_emulator() {
     /*
      Dropdown with Multiple checkbox select with jQuery - May 27, 2013
      (c) 2013 @ElmahdiMahmoud
-     license: https://www.opensource.org/licenses/mit-license.php
+     license: //www.opensource.org/licenses/mit-license.php
      */
     jQuery(".dropdown dt a").on('click', function () {
         //jQuery(".dropdown dd ul").slideToggle('fast');

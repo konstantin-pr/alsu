@@ -3,7 +3,7 @@
 	'use strict';
 
 	/**
-	 * based on from https://github.com/inuyaksa/jquery.nicescroll/blob/master/jquery.nicescroll.js
+	 * based on from //github.com/inuyaksa/jquery.nicescroll/blob/master/jquery.nicescroll.js
 	 */
 	function hasParent( e, p ) {
 		if (!e) return false;

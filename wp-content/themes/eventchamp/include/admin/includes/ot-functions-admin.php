@@ -827,7 +827,7 @@ if ( ! function_exists( 'ot_admin_scripts' ) ) {
     wp_enqueue_script( 'wp-color-picker' );
 
     /* load Ace Editor for CSS Editing */
-    wp_enqueue_script( 'ace-editor', 'https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js', null, '1.1.3' );   
+    wp_enqueue_script( 'ace-editor', '//cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js', null, '1.1.3' );   
 
     /* load jQuery UI timepicker addon */
     wp_enqueue_script( 'jquery-ui-timepicker', OT_URL . 'assets/js/vendor/jquery/jquery-ui-timepicker.js', array( 'jquery', 'jquery-ui-slider', 'jquery-ui-datepicker' ), '1.4.3' );
@@ -3400,7 +3400,7 @@ if ( ! function_exists( 'ot_social_links_settings' ) ) {
       array(
         'id'        => 'href',
         'label'     => 'Link',
-        'desc'      => sprintf( __( 'Enter a link to the profile or page on the social website. Remember to add the %s part to the front of the link.', 'eventchamp' ), '<code>https://</code>' ),
+        'desc'      => sprintf( __( 'Enter a link to the profile or page on the social website. Remember to add the %s part to the front of the link.', 'eventchamp' ), '<code>//</code>' ),
         'type'      => 'text',
       )
     ), $id );
@@ -5214,7 +5214,7 @@ function ot_fetch_google_fonts( $normalize = true, $force_rebuild = false ) {
     $ot_google_fonts = array();
 
     /* API url and key */
-    $ot_google_fonts_api_url = apply_filters( 'ot_google_fonts_api_url', 'https://www.googleapis.com/webfonts/v1/webfonts' );
+    $ot_google_fonts_api_url = apply_filters( 'ot_google_fonts_api_url', '//www.googleapis.com/webfonts/v1/webfonts' );
     $ot_google_fonts_api_key = apply_filters( 'ot_google_fonts_api_key', 'AIzaSyB8G-4UtQr9fhDYTiNrDP40Y5GYQQKrNWI' );
 
     /* API arguments */
@@ -5618,7 +5618,7 @@ function ot_meta_box_post_format_video( $pages = 'post' ) {
       array(
         'id'      => '_format_video_embed',
         'label'   => '',
-        'desc'    => sprintf( __( 'Embed video from services like Youtube, Vimeo, or Hulu. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="https://codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[video]</code>' ),
+        'desc'    => sprintf( __( 'Embed video from services like Youtube, Vimeo, or Hulu. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="//codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[video]</code>' ),
         'std'     => '',
         'type'    => 'textarea'
       )
@@ -5657,7 +5657,7 @@ function ot_meta_box_post_format_audio( $pages = 'post' ) {
       array(
         'id'      => '_format_audio_embed',
         'label'   => '',
-        'desc'    => sprintf( __( 'Embed audio from services like SoundCloud and Rdio. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="https://codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[audio]</code>' ),
+        'desc'    => sprintf( __( 'Embed audio from services like SoundCloud and Rdio. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="//codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[audio]</code>' ),
         'std'     => '',
         'type'    => 'textarea'
       )

@@ -9,7 +9,7 @@
  *
  * @package   TGM-Plugin-Activation
  * @version   2.6.1 for parent theme Mulada for publication on ThemeForest
- * @link      https://tgmpluginactivation.com/
+ * @link      //tgmpluginactivation.com/
  * @author    Thomas Griffin, Gary Jones, Juliette Reinders Folmer
  * @copyright Copyright (c) 2011, Thomas Griffin
  * @license   GPL-2.0+
@@ -279,7 +279,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * is being assigned rather than tested in a conditional, effectively rendering it useless.
 		 * This 'hack' prevents this from happening.}}
 		 *
-		 * @see https://github.com/TGMPA/TGM-Plugin-Activation/blob/2.3.6/tgm-plugin-activation/class-tgm-plugin-activation.php#L1593
+		 * @see //github.com/TGMPA/TGM-Plugin-Activation/blob/2.3.6/tgm-plugin-activation/class-tgm-plugin-activation.php#L1593
 		 *
 		 * @since 2.5.2
 		 *
@@ -1435,7 +1435,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * allowed, so as not to break upgrade paths from non-standard bundled plugins using uppercase
 		 * characters in the plugin directory path/slug. Silly them.
 		 *
-		 * @see https://developer.wordpress.org/reference/hooks/sanitize_key/
+		 * @see //developer.wordpress.org/reference/hooks/sanitize_key/
 		 *
 		 * @since 2.5.0
 		 *
@@ -1738,7 +1738,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * Retrieve the URL to the TGMPA Install page.
 		 *
 		 * I.e. depending on the config settings passed something along the lines of:
-		 * https://example.com/wp-admin/themes.php?page=tgmpa-install-plugins
+		 * //example.com/wp-admin/themes.php?page=tgmpa-install-plugins
 		 *
 		 * @since 2.5.0
 		 *
@@ -1767,7 +1767,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 * Retrieve the URL to the TGMPA Install page for a specific plugin status (view).
 		 *
 		 * I.e. depending on the config settings passed something along the lines of:
-		 * https://example.com/wp-admin/themes.php?page=tgmpa-install-plugins&plugin_status=install
+		 * //example.com/wp-admin/themes.php?page=tgmpa-install-plugins&plugin_status=install
 		 *
 		 * @since 2.5.0
 		 *
@@ -2132,10 +2132,10 @@ if ( ! function_exists( 'tgmpa' ) ) {
 			}
 
 			if ( isset( $config['parent_menu_slug'] ) ) {
-				_deprecated_argument( __FUNCTION__, '2.4.0', 'The `parent_menu_slug` config parameter was removed in TGMPA 2.4.0. In TGMPA 2.5.0 an alternative was (re-)introduced. Please adjust your configuration. For more information visit the website: https://tgmpluginactivation.com/configuration/#h-configuration-options.' );
+				_deprecated_argument( __FUNCTION__, '2.4.0', 'The `parent_menu_slug` config parameter was removed in TGMPA 2.4.0. In TGMPA 2.5.0 an alternative was (re-)introduced. Please adjust your configuration. For more information visit the website: //tgmpluginactivation.com/configuration/#h-configuration-options.' );
 			}
 			if ( isset( $config['parent_url_slug'] ) ) {
-				_deprecated_argument( __FUNCTION__, '2.4.0', 'The `parent_url_slug` config parameter was removed in TGMPA 2.4.0. In TGMPA 2.5.0 an alternative was (re-)introduced. Please adjust your configuration. For more information visit the website: https://tgmpluginactivation.com/configuration/#h-configuration-options.' );
+				_deprecated_argument( __FUNCTION__, '2.4.0', 'The `parent_url_slug` config parameter was removed in TGMPA 2.4.0. In TGMPA 2.5.0 an alternative was (re-)introduced. Please adjust your configuration. For more information visit the website: //tgmpluginactivation.com/configuration/#h-configuration-options.' );
 			}
 
 			call_user_func( array( $instance, 'config' ), $config );
@@ -3281,8 +3281,8 @@ if ( ! function_exists( 'eventchamp_load_bulk_installer' ) ) {
 					 * comments are added. Code style has been made to comply.}}
 					 *
 					 * @see Plugin_Upgrader::bulk_upgrade()
-					 * @see https://core.trac.wordpress.org/browser/tags/4.2.1/src/wp-admin/includes/class-wp-upgrader.php#L838
-					 * (@internal Last synced: Dec 31st 2015 against https://core.trac.wordpress.org/browser/trunk?rev=36134}}
+					 * @see //core.trac.wordpress.org/browser/tags/4.2.1/src/wp-admin/includes/class-wp-upgrader.php#L838
+					 * (@internal Last synced: Dec 31st 2015 against //core.trac.wordpress.org/browser/trunk?rev=36134}}
 					 *
 					 * @param array $plugins The plugin sources needed for installation.
 					 * @param array $args    Arbitrary passed extra arguments.
@@ -3498,7 +3498,7 @@ if ( ! function_exists( 'eventchamp_load_bulk_installer' ) ) {
 				 *            TGMPA_Bulk_Installer_Skin.
 				 *            This was done to prevent backward compatibility issues with v2.3.6.}}
 				 *
-				 * @see https://core.trac.wordpress.org/browser/trunk/src/wp-admin/includes/class-wp-upgrader-skins.php
+				 * @see //core.trac.wordpress.org/browser/trunk/src/wp-admin/includes/class-wp-upgrader-skins.php
 				 *
 				 * @package TGM-Plugin-Activation
 				 * @author  Thomas Griffin
@@ -3734,7 +3734,7 @@ if ( ! class_exists( 'TGMPA_Utils' ) ) {
 		/**
 		 * Whether the PHP filter extension is enabled.
 		 *
-		 * @see https://php.net/book.filter
+		 * @see //php.net/book.filter
 		 *
 		 * @since 2.5.0
 		 *

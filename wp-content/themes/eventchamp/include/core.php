@@ -78,7 +78,7 @@
 		));
 
 		wp_enqueue_style( 'prettyphoto', true  );
-		 wp_enqueue_style( 'jquery-ui-datepicker', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css' );
+		 wp_enqueue_style( 'jquery-ui-datepicker', '//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css' );
         //wp_enqueue_style( 'jquery-ui-datepicker', get_template_directory_uri() . '/include/assets/css/jquery-ui.min.css' );
 		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/include/assets/css/bootstrap.min.css' );
 		wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/include/assets/css/fontawesome.min.css' );
@@ -2179,39 +2179,39 @@
 			}
 
 			if( !$social_share_facebook == 'off' or $social_share_facebook == 'on' ) {
-				$facebook = '<li><a class="share-facebook"  href="https://www.facebook.com/sharer/sharer.php?u=' . get_the_permalink() . '&t=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Facebook', 'eventchamp' ) . '" target="_blank"><i class="fab fa-facebook-f"></i>' . '<span>' . esc_html__( 'Facebook', 'eventchamp' ) . '</span>' . '</a></li>';
+				$facebook = '<li><a class="share-facebook"  href="//www.facebook.com/sharer/sharer.php?u=' . get_the_permalink() . '&t=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Facebook', 'eventchamp' ) . '" target="_blank"><i class="fab fa-facebook-f"></i>' . '<span>' . esc_html__( 'Facebook', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_twitter == 'off' or $social_share_twitter == 'on' ) {
-				$twitter = '<li><a class="share-twitter"  href="https://twitter.com/intent/tweet?url=' . get_the_permalink() . '&text=' . urlencode( get_the_title() ). '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Twitter', 'eventchamp' ) . '" target="_blank"><i class="fab fa-twitter"></i>' . '<span>' . esc_html__( 'Twitter', 'eventchamp' ) . '</span>' . '</a></li>';
+				$twitter = '<li><a class="share-twitter"  href="//twitter.com/intent/tweet?url=' . get_the_permalink() . '&text=' . urlencode( get_the_title() ). '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Twitter', 'eventchamp' ) . '" target="_blank"><i class="fab fa-twitter"></i>' . '<span>' . esc_html__( 'Twitter', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_googleplus == 'off' or $social_share_googleplus == 'on' ) {
-				$googleplus = '<li><a class="share-googleplus"  href="https://plus.google.com/share?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Google+', 'eventchamp' ) . '" target="_blank"><i class="fab fa-google-plus-g"></i>' . '<span>' . esc_html__( 'Google+', 'eventchamp' ) . '</span>' . '</a></li>';
+				$googleplus = '<li><a class="share-googleplus"  href="//plus.google.com/share?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Google+', 'eventchamp' ) . '" target="_blank"><i class="fab fa-google-plus-g"></i>' . '<span>' . esc_html__( 'Google+', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_linkedin == 'off' or $social_share_linkedin == 'on' ) {
-				$linkedin = '<li><a class="share-linkedin"  href="https://www.linkedin.com/shareArticle?mini=true&amp;url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Linkedin', 'eventchamp' ) . '" target="_blank"><i class="fab fa-linkedin-in"></i>' . '<span>' . esc_html__( 'LinkedIn', 'eventchamp' ) . '</span>' . '</a></li>';
+				$linkedin = '<li><a class="share-linkedin"  href="//www.linkedin.com/shareArticle?mini=true&amp;url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Linkedin', 'eventchamp' ) . '" target="_blank"><i class="fab fa-linkedin-in"></i>' . '<span>' . esc_html__( 'LinkedIn', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_pinterest == 'off' or $social_share_pinterest == 'on' ) {
-				$pinterest = '<li><a class="share-pinterest"  href="https://pinterest.com/pin/create/button/?url=' . get_the_permalink() . '&description=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Pinterest', 'eventchamp' ) . '" target="_blank"><i class="fab fa-pinterest-p"></i>' . '<span>' . esc_html__( 'Pinterest', 'eventchamp' ) . '</span>' . '</a></li>';
+				$pinterest = '<li><a class="share-pinterest"  href="//pinterest.com/pin/create/button/?url=' . get_the_permalink() . '&description=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Pinterest', 'eventchamp' ) . '" target="_blank"><i class="fab fa-pinterest-p"></i>' . '<span>' . esc_html__( 'Pinterest', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_reddit == 'off' or $social_share_reddit == 'on' ) {
-				$reddit = '<li><a class="share-reddit"  href="https://reddit.com/submit?url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Reddit', 'eventchamp' ) . '" target="_blank"><i class="fab fa-reddit-alien"></i>' . '<span>' . esc_html__( 'Reddit', 'eventchamp' ) . '</span>' . '</a></li>';
+				$reddit = '<li><a class="share-reddit"  href="//reddit.com/submit?url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Reddit', 'eventchamp' ) . '" target="_blank"><i class="fab fa-reddit-alien"></i>' . '<span>' . esc_html__( 'Reddit', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_delicious == 'off' or $social_share_delicious == 'on' ) {
-				$delicious = '<li><a class="share-delicious"  href="https://del.icio.us/post?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Delicious', 'eventchamp' ) . '" target="_blank"><i class="fab fa-delicious"></i>' . '<span>' . esc_html__( 'Delicious', 'eventchamp' ) . '</span>' . '</a></li>';
+				$delicious = '<li><a class="share-delicious"  href="//del.icio.us/post?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Delicious', 'eventchamp' ) . '" target="_blank"><i class="fab fa-delicious"></i>' . '<span>' . esc_html__( 'Delicious', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_stumbleupon == 'off' or $social_share_stumbleupon == 'on' ) {
-				$stumbleupon = '<li><a class="share-stumbleupon"  href="https://www.stumbleupon.com/submit?url=' . get_the_permalink() . '&title=' . get_the_title() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Stumbleupon', 'eventchamp' ) . '" target="_blank"><i class="fab fa-stumbleupon"></i>' . '<span>' . esc_html__( 'Stumbleupon', 'eventchamp' ) . '</span>' . '</a></li>';
+				$stumbleupon = '<li><a class="share-stumbleupon"  href="//www.stumbleupon.com/submit?url=' . get_the_permalink() . '&title=' . get_the_title() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Stumbleupon', 'eventchamp' ) . '" target="_blank"><i class="fab fa-stumbleupon"></i>' . '<span>' . esc_html__( 'Stumbleupon', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_tumblr == 'off' or $social_share_tumblr == 'on' ) {
-				$tumblr = '<li><a class="share-tumblr"  href="https://www.tumblr.com/share/link?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Tumblr', 'eventchamp' ) . '" target="_blank"><i class="fab fa-tumblr"></i>' . '<span>' . esc_html__( 'Tumblr', 'eventchamp' ) . '</span>' . '</a></li>';
+				$tumblr = '<li><a class="share-tumblr"  href="//www.tumblr.com/share/link?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Tumblr', 'eventchamp' ) . '" target="_blank"><i class="fab fa-tumblr"></i>' . '<span>' . esc_html__( 'Tumblr', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 		}
 		

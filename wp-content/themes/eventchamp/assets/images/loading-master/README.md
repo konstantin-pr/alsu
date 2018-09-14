@@ -1,7 +1,7 @@
 # Loading...
 This could take a while
 
-https://jxnblk.github.io/loading
+//jxnblk.github.io/loading
 
 ## Usage
 
@@ -13,7 +13,7 @@ https://jxnblk.github.io/loading
 Just change the `fill` attribute in the svg file to whatever.
 
 ```html
-<svg class="icon-loading" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="blue">
+<svg class="icon-loading" xmlns="//www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="blue">
 ```
 
 ## About
@@ -23,7 +23,7 @@ Feel free to use the source code as an example or in any project of your own.
 If you do intend to use these in production, be aware of limited browser support
 and be prepared to create fallbacks.
 
-https://caniuse.com/svg-smil
+//caniuse.com/svg-smil
 
 Also be aware of user experience issues with perceptual loading time.
 Subtler is usually better.
