@@ -11,7 +11,7 @@
  *
  * * Настройки MySQL
  * * Секретные ключи
- * * Префикс таблиц базы данных
+# * * Префикс таблиц базы данных
  * * ABSPATH
  *
  * @link https://codex.wordpress.org/Editing_wp-config.php
@@ -21,6 +21,8 @@
 
 /* /Optimize: cache options. kean.dev@gmail.com */
 
+define('WP_HOME','https://dailyconf.com');
+define('WP_SITEURL','https://dailyconf.com');
 
 error_reporting(E_ALL);
 define( 'WP_MEMORY_LIMIT', '512M' );
