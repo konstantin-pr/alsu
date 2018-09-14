@@ -3400,7 +3400,7 @@ if ( ! function_exists( 'ot_social_links_settings' ) ) {
       array(
         'id'        => 'href',
         'label'     => 'Link',
-        'desc'      => sprintf( __( 'Enter a link to the profile or page on the social website. Remember to add the %s part to the front of the link.', 'eventchamp' ), '<code>http://</code>' ),
+        'desc'      => sprintf( __( 'Enter a link to the profile or page on the social website. Remember to add the %s part to the front of the link.', 'eventchamp' ), '<code>https://</code>' ),
         'type'      => 'text',
       )
     ), $id );
@@ -5618,7 +5618,7 @@ function ot_meta_box_post_format_video( $pages = 'post' ) {
       array(
         'id'      => '_format_video_embed',
         'label'   => '',
-        'desc'    => sprintf( __( 'Embed video from services like Youtube, Vimeo, or Hulu. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="http://codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[video]</code>' ),
+        'desc'    => sprintf( __( 'Embed video from services like Youtube, Vimeo, or Hulu. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="https://codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[video]</code>' ),
         'std'     => '',
         'type'    => 'textarea'
       )
@@ -5657,7 +5657,7 @@ function ot_meta_box_post_format_audio( $pages = 'post' ) {
       array(
         'id'      => '_format_audio_embed',
         'label'   => '',
-        'desc'    => sprintf( __( 'Embed audio from services like SoundCloud and Rdio. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="http://codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[audio]</code>' ),
+        'desc'    => sprintf( __( 'Embed audio from services like SoundCloud and Rdio. You can find a list of supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s shortcode.', 'eventchamp' ), '<a href="https://codex.wordpress.org/Embeds" target="_blank">' . __( 'Wordpress Codex', 'eventchamp' ) .'</a>', '<code>[audio]</code>' ),
         'std'     => '',
         'type'    => 'textarea'
       )

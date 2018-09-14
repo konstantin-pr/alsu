@@ -5,7 +5,7 @@
  * Description: Theme Options UI Builder for WordPress. A simple way to create & save Theme Options and Meta Boxes for free or premium themes.
  * Version:     2.5.5
  * Author:      Derek Herman
- * Author URI:  http://valendesigns.com
+ * Author URI:  https://valendesigns.com
  * License:     GPLv3
  */
 

@@ -1,6 +1,6 @@
 === OptionTree ===
 Contributors: valendesigns
-Donate link: http://bit.ly/NuXI3T
+Donate link: https://bit.ly/NuXI3T
 Tags: options, theme options, meta boxes
 Requires at least: 3.8
 Tested up to: 4.4
@@ -26,7 +26,7 @@ If you're like me, you want to know how everything works. Download and activate 
 To contribute or report bugs, please go to the [OptionTree Github](https://github.com/valendesigns/option-tree) repository.
 
 #### Sponsorship
-OptionTree is a project partly sponsored by <a href="http://themeforest.net/?ref=valendesigns">ThemeForest</a>, the largest WordPress theme marketplace on the web.
+OptionTree is a project partly sponsored by <a href="https://themeforest.net/?ref=valendesigns">ThemeForest</a>, the largest WordPress theme marketplace on the web.
 
 #### Option Types
 This is a complete list of all the available option types that come shipped with OptionTree.

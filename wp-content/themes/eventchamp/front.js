@@ -463,7 +463,7 @@ function mdf_init_search_form(uniqid, slug, search_url, act_without_button, ajax
 document.addEventListener("DOMContentLoaded", function () {
 
     if (act_without_button === 1) {
-          
+
         //checkbox actions
         jQuery("#meta_data_filter_" + uniqid + " .mdf_option_checkbox").life('change', function () {
             mdf_click_checkbox(this);
@@ -498,7 +498,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return true;
         });
     } else {
-     
+
         jQuery("#meta_data_filter_" + uniqid + " .mdf_option_checkbox").unbind('click');
         jQuery("#meta_data_filter_" + uniqid + " .mdf_option_checkbox").unbind('change');
         jQuery("#meta_data_filter_" + uniqid + " .mdf_option_checkbox").life('change', function () {
@@ -951,7 +951,7 @@ function mdf_init_selects() {
     }
 }
 
-//http://fronteed.com/iCheck/
+//https://fronteed.com/iCheck/
 function mdf_init_checkboxes() {
     try {
         if (mdf_use_custom_icheck == 0) {
@@ -1198,7 +1198,7 @@ function mdf_init_multislect_emulator() {
     /*
      Dropdown with Multiple checkbox select with jQuery - May 27, 2013
      (c) 2013 @ElmahdiMahmoud
-     license: http://www.opensource.org/licenses/mit-license.php
+     license: https://www.opensource.org/licenses/mit-license.php
      */
     jQuery(".dropdown dt a").on('click', function () {
         //jQuery(".dropdown dd ul").slideToggle('fast');

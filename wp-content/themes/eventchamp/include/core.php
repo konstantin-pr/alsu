@@ -2199,19 +2199,19 @@
 			}
 
 			if( !$social_share_reddit == 'off' or $social_share_reddit == 'on' ) {
-				$reddit = '<li><a class="share-reddit"  href="http://reddit.com/submit?url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Reddit', 'eventchamp' ) . '" target="_blank"><i class="fab fa-reddit-alien"></i>' . '<span>' . esc_html__( 'Reddit', 'eventchamp' ) . '</span>' . '</a></li>';
+				$reddit = '<li><a class="share-reddit"  href="https://reddit.com/submit?url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Reddit', 'eventchamp' ) . '" target="_blank"><i class="fab fa-reddit-alien"></i>' . '<span>' . esc_html__( 'Reddit', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_delicious == 'off' or $social_share_delicious == 'on' ) {
-				$delicious = '<li><a class="share-delicious"  href="http://del.icio.us/post?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Delicious', 'eventchamp' ) . '" target="_blank"><i class="fab fa-delicious"></i>' . '<span>' . esc_html__( 'Delicious', 'eventchamp' ) . '</span>' . '</a></li>';
+				$delicious = '<li><a class="share-delicious"  href="https://del.icio.us/post?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Delicious', 'eventchamp' ) . '" target="_blank"><i class="fab fa-delicious"></i>' . '<span>' . esc_html__( 'Delicious', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_stumbleupon == 'off' or $social_share_stumbleupon == 'on' ) {
-				$stumbleupon = '<li><a class="share-stumbleupon"  href="http://www.stumbleupon.com/submit?url=' . get_the_permalink() . '&title=' . get_the_title() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Stumbleupon', 'eventchamp' ) . '" target="_blank"><i class="fab fa-stumbleupon"></i>' . '<span>' . esc_html__( 'Stumbleupon', 'eventchamp' ) . '</span>' . '</a></li>';
+				$stumbleupon = '<li><a class="share-stumbleupon"  href="https://www.stumbleupon.com/submit?url=' . get_the_permalink() . '&title=' . get_the_title() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Stumbleupon', 'eventchamp' ) . '" target="_blank"><i class="fab fa-stumbleupon"></i>' . '<span>' . esc_html__( 'Stumbleupon', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_tumblr == 'off' or $social_share_tumblr == 'on' ) {
-				$tumblr = '<li><a class="share-tumblr"  href="http://www.tumblr.com/share/link?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Tumblr', 'eventchamp' ) . '" target="_blank"><i class="fab fa-tumblr"></i>' . '<span>' . esc_html__( 'Tumblr', 'eventchamp' ) . '</span>' . '</a></li>';
+				$tumblr = '<li><a class="share-tumblr"  href="https://www.tumblr.com/share/link?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Tumblr', 'eventchamp' ) . '" target="_blank"><i class="fab fa-tumblr"></i>' . '<span>' . esc_html__( 'Tumblr', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 		}
 		
