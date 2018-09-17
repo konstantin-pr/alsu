@@ -39,7 +39,7 @@ define('DB_NAME', 'dailyconf');
 define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Min81828390_a');
 
 /** Имя сервера MySQL */
 define('DB_HOST', '127.0.0.1');

@@ -256,7 +256,7 @@ function wpcf7_recaptcha_callback_script() {
 	}
 
 ?>
-<script >
+<script type="text/javascript">
 var recaptchaWidgets = [];
 var recaptchaCallback = function() {
 	var forms = document.getElementsByTagName( 'form' );
