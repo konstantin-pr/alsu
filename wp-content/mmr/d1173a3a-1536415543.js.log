@@ -1,0 +1,10 @@
+2018-09-16T16:31:40+00:00 - MERGED:
+ - jquery-core - /wp-includes/js/jquery/jquery.js
+ - jquery-migrate - /wp-includes/js/jquery/jquery-migrate.min.js - unminified version used
+ - jquery-ui-core - /wp-includes/js/jquery/ui/core.min.js
+ - jquery-ui-widget - /wp-includes/js/jquery/ui/widget.min.js
+ - jquery-ui-mouse - /wp-includes/js/jquery/ui/mouse.min.js
+ - jquery-ui-slider - /wp-includes/js/jquery/ui/slider.min.js
+ - accounting - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js - unminified version used
+ - meta_data_filter_widget - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/front.js
+ - wp-a11y - /wp-includes/js/wp-a11y.min.js - unminified version used

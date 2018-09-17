@@ -1,9 +1,0 @@
-2018-08-21T07:29:07+00:00 - MERGED:
- - style-maintenance - https://dailyconf.com/wp-content/plugins/wp-ultimate-csv-importer/assets/css/style-maintenance.css
- - dashicons - /wp-includes/css/dashicons.min.css
- - customize-preview - /wp-includes/css/customize-preview.min.css
- - contact-form-7 - https://dailyconf.com/wp-content/plugins/contact-form-7/includes/css/styles.css
- - sb_instagram_styles - https://dailyconf.com/wp-content/plugins/instagram-feed/css/sb-instagram.min.css
-2018-08-21T07:29:32+00:00 - COMPRESSING CSS
-2018-08-21T07:29:32+00:00 - GZIPPED - /var/www/u0480146/data/www/dailyconf.com/wp-content/mmr/595526cf-1534535177.min.css.gz
-2018-08-21T07:29:32+00:00 - COMPRESSION COMPLETE - 351.00B saved

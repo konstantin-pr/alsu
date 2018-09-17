@@ -1,0 +1,7 @@
+2018-09-15T14:07:36+00:00 - MERGED:
+ - jquery-core - /wp-includes/js/jquery/jquery.js
+ - jquery-migrate - /wp-includes/js/jquery/jquery-migrate.min.js - unminified version used
+ - jquery-ui-core - /wp-includes/js/jquery/ui/core.min.js
+ - meta_data_filter_widget - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/front.js
+ - admin-bar - /wp-includes/js/admin-bar.min.js - unminified version used
+ - vc_woocommerce-add-to-cart-js - https://dailyconf.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js

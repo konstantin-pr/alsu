@@ -1,0 +1,14 @@
+2018-09-16T16:57:40+00:00 - MERGED:
+ - contact-form-7 - https://dailyconf.com/wp-content/plugins/contact-form-7/includes/js/scripts.js
+ - sb_instagram_scripts - https://dailyconf.com/wp-content/plugins/instagram-feed/js/sb-instagram.min.js - unminified version used
+ - wc-add-to-cart - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js - unminified version used
+ - jquery-blockui - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js - unminified version used
+ - js-cookie - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js - unminified version used
+ - woocommerce - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js - unminified version used
+ - wc-cart-fragments - https://dailyconf.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js - unminified version used
+ - bootstrap - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/bootstrap.min.js
+ - prettyphoto - https://dailyconf.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js
+ - jquery-ui-datepicker - /wp-includes/js/jquery/ui/datepicker.min.js
+ - eventchamp-fixed-sidebar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/fixed-sidebar.js
+ - eventchamp-fixed-header - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/fixed-header.js
+ - moment - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/moment.min.js

@@ -1,0 +1,4 @@
+2018-09-15T14:55:04+00:00 - MERGED:
+ - jquery-core - /wp-includes/js/jquery/jquery.js
+ - jquery-migrate - /wp-includes/js/jquery/jquery-migrate.min.js - unminified version used
+ - jquery-ui-core - /wp-includes/js/jquery/ui/core.min.js
