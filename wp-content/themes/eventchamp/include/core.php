@@ -2572,7 +2572,7 @@
 			$output .= '<div class="event-list-styles event-list-style-3">';
 				if( $image == 'true' ) {
 						if ( has_post_thumbnail( $post_id ) ) {
-							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'eventchamp-event-list' );
+							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'medium' );
 						} else {
 							$image_url = "";
 						}
@@ -2683,7 +2683,7 @@
 			$output .= '<div class="event-list-styles event-list-style-4">';
 				if( $image == 'true' ) {
 						if ( has_post_thumbnail( $post_id ) ) {
-							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'eventchamp-event-list' );
+							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'medium' );
 						} else {
 							$image_url = "";
 						}
