@@ -15,7 +15,7 @@
 		add_theme_support( 'wc-product-gallery-lightbox' );
 		add_theme_support( 'wc-product-gallery-slider' );
 
-		if( function_exists( 'add_image_size' ) ) { 
+		if( function_exists( 'add_image_size' ) ) {
 			add_image_size( 'eventchamp-big-post', 870, 550, true );
 			add_image_size( 'eventchamp-small-post', 420, 290, true );
 			add_image_size( 'eventchamp-event-sponsor', 130, 80, true );
@@ -24,16 +24,17 @@
 			add_image_size( 'eventchamp-speaker-schedule', 40, 40, true );
 			add_image_size( 'eventchamp-avatar', 85, 85, true );
 			add_image_size( 'eventchamp-event-slider', 1920, 950, true );
-			add_image_size( 'eventchamp-event-list', 952, 579, true );
+			//add_image_size( 'eventchamp-event-list', 952, 579, true );
+			add_image_size( 'eventchamp-event-list', 300, 300, true );
 			add_image_size( 'eventchamp-big-event', 870, 560, true );
 			add_image_size( 'eventchamp-page-banner', 1920, 235, true );
 			add_image_size( 'eventchamp-medium-middle', 350, 350, true );
 		}
-		
+
 		if( ! isset( $content_width ) ) {
 			$content_width = 600;
 		}
-		
+
 		if( is_singular() ) wp_enqueue_script( 'comment-reply' );
 	}
 	add_action( 'after_setup_theme', 'eventchamp_setup' );
@@ -73,12 +74,12 @@
 		wp_enqueue_script( 'eventchamp', get_template_directory_uri() . '/include/assets/js/eventchamp.js', array(), false, true );
 		wp_enqueue_script('ajax-app');
 		wp_enqueue_script( 'ajax-login-register-script', get_template_directory_uri() . '/include/assets/js/user-box.js', array(), false, true );
-		wp_localize_script('ajax-login-register-script', 'ptajax', array( 
+		wp_localize_script('ajax-login-register-script', 'ptajax', array(
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 		));
 
 		wp_enqueue_style( 'prettyphoto', true  );
-		 wp_enqueue_style( 'jquery-ui-datepicker', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css' );
+		 wp_enqueue_style( 'jquery-ui-datepicker', '//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css' );
         //wp_enqueue_style( 'jquery-ui-datepicker', get_template_directory_uri() . '/include/assets/css/jquery-ui.min.css' );
 		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/include/assets/css/bootstrap.min.css' );
 		wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/include/assets/css/fontawesome.min.css' );
@@ -136,7 +137,7 @@
 		if( !empty( $custom_js ) ) {
 			wp_add_inline_script( "eventchamp", "jQuery(document).ready(function($){
 				" . ot_get_option( 'custom_js' ) . "
-			});" );			
+			});" );
 		}
 	}
 	add_action( 'wp_enqueue_scripts', 'eventchamp_scripts' );
@@ -338,7 +339,7 @@
 	function eventchamp_header() {
 		$hide_header = ot_get_option( 'hide_header' );
 		$default_header_style = ot_get_option( 'default_header_style' );
-		
+
 		if( !$hide_header == 'off' or $hide_header == 'on' ) {
 			if ( is_page() or is_single() ) {
 				global $post;
@@ -353,21 +354,21 @@
 				$page_menu_location = "";
 				$header_gap = "";
 			}
-		
+
 			if ( $page_menu_location == "default" ) {
 				$menu_location = 'mainmenu';
 			} elseif ( $page_menu_location == "onepage" ) {
-				$menu_location = "onepagemenu";		
+				$menu_location = "onepagemenu";
 			} else {
-				$menu_location = "mainmenu";		
+				$menu_location = "mainmenu";
 			}
 
 			if( !$header_gap == 'off' or $header_gap == "on" ) {
 				$header_gap_status = "remove-gap";
 			} else {
-				$header_gap_status = "remove-gap-removed";			
+				$header_gap_status = "remove-gap-removed";
 			}
-			
+
 			function eventchamp_headerstyle1() {
 				if ( is_page() or is_single() ) {
 					global $post;
@@ -382,15 +383,15 @@
 				if( !$header_gap == 'off' or $header_gap == "on" ) {
 					$header_gap_status = "remove-gap";
 				} else {
-					$header_gap_status = "remove-gap-removed";			
+					$header_gap_status = "remove-gap-removed";
 				}
-			
+
 				if ( $page_menu_location == "default" ) {
 					$menu_location = 'mainmenu';
 				} elseif ( $page_menu_location == "onepage" ) {
-					$menu_location = "onepagemenu";		
+					$menu_location = "onepagemenu";
 				} else {
-					$menu_location = "mainmenu";		
+					$menu_location = "mainmenu";
 				}
 			?>
 				<div class="header header-style-1<?php echo ' ' . esc_attr( $header_gap_status ); ?>">
@@ -421,7 +422,7 @@
 				</div>
 			<?php
 			}
-			
+
 			function eventchamp_headerstyle2() {
 				if ( is_page() or is_single() ) {
 					global $post;
@@ -436,15 +437,15 @@
 				if( !$header_gap == 'off' or $header_gap == "on" ) {
 					$header_gap_status = "remove-gap";
 				} else {
-					$header_gap_status = "remove-gap-removed";			
+					$header_gap_status = "remove-gap-removed";
 				}
-			
+
 				if ( $page_menu_location == "default" ) {
 					$menu_location = 'mainmenu';
 				} elseif ( $page_menu_location == "onepage" ) {
-					$menu_location = "onepagemenu";		
+					$menu_location = "onepagemenu";
 				} else {
-					$menu_location = "mainmenu";		
+					$menu_location = "mainmenu";
 				}
 			?>
 				<div class="header header-style-1 header-style-2<?php echo ' ' . esc_attr( $header_gap_status ); ?>">
@@ -476,47 +477,47 @@
 				</div>
 			<?php
 			}
-			
+
 			if( !$header_status == 'off' or $header_status == "on" ) {
-				
+
 				if ( is_page() or is_single() ) {
-					
+
 					if( $header_style == "header-style-2" ) {
 						eventchamp_headerstyle2();
 					} elseif( $header_style == "header-style-1" ) {
 						eventchamp_headerstyle1();
 					} else {
-						
+
 						if( $default_header_style == "header-style-2" ) {
 							eventchamp_headerstyle2();
 						} else {
 							eventchamp_headerstyle1();
 						}
-						
+
 					}
-					
+
 				} elseif( is_category() ) {
-					
+
 					$cat = get_queried_object();
 					$cat_id = $cat->term_id;
 					$eventchamp_category_header_style = get_term_meta( $cat_id, 'eventchamp_category_header_style', true );
-					
+
 					if( $eventchamp_category_header_style == "header-style-2" ) {
 						eventchamp_headerstyle2();
 					} elseif( $eventchamp_category_header_style == "header-style-1" ) {
 						eventchamp_headerstyle1();
 					} else {
-						
+
 						if( $default_header_style == "header-style-2" ) {
 							eventchamp_headerstyle2();
 						} else {
 							eventchamp_headerstyle1();
 						}
-						
+
 					}
-					
+
 				} else {
-				
+
 					if( $default_header_style == "header-style-2" ) {
 						eventchamp_headerstyle2();
 					} else {
@@ -524,7 +525,7 @@
 					}
 
 				}
-				
+
 			}
 		}
 	}
@@ -544,13 +545,13 @@
 		else {
 			$page_menu_location = "";
 		}
-	
+
 		if ( $page_menu_location == "default" ) {
 			$menu_location = 'mainmenu';
 		} elseif ( $page_menu_location == "onepage" ) {
-			$menu_location = "onepagemenu";		
+			$menu_location = "onepagemenu";
 		} else {
-			$menu_location = "mainmenu";		
+			$menu_location = "mainmenu";
 		}
 		?>
 			<header class="mobile-header">
@@ -646,12 +647,12 @@
 	function eventchamp_header_elements() {
 		$header_social_media = ot_get_option( 'header_social_media' );
 		if( $header_social_media == 'on' or !$header_social_media == 'off' ) {
-			echo eventchamp_social_media_sites();			
+			echo eventchamp_social_media_sites();
 		}
 
 		$header_user_box = ot_get_option( 'header_user_box' );
 		if( $header_user_box == 'on' ) {
-			if( ! is_user_logged_in() ){ 
+			if( ! is_user_logged_in() ){
 				echo'<ul class="user-box-links">
 					<li>
 						<a href="" data-target="#user_login_popup" data-toggle="modal">' . esc_html__( 'Login', 'eventchamp' ) . '</a>
@@ -686,7 +687,7 @@
 		$header_user_box = ot_get_option( 'header_user_box' );
 		$header_social_login_system = ot_get_option( 'header_social_login_system' );
 		if( !$header_user_box == 'off' or $header_user_box == 'on' ) {
-			if( ! is_user_logged_in() ){ 
+			if( ! is_user_logged_in() ){
 				?>
 				<div class="modal fade pt-user-modal" id="user_login_popup" tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
@@ -816,7 +817,7 @@
 	add_action( 'wp_footer', 'eventchamp_userbox' );
 
 	function eventchamp_login(){
-		$user_login = $_POST['pt_user_login'];	
+		$user_login = $_POST['pt_user_login'];
 		$user_pass = $_POST['pt_user_pass'];
 		$remember = $_POST['pt_remember_me'];
 		if(isset($_POST['pt_remember_me'])) {
@@ -843,19 +844,19 @@
 	add_action( 'wp_ajax_nopriv_eventchamp_login', 'eventchamp_login' );
 
 	function eventchamp_register(){
-			$user_login	= $_POST['pt_user_login'];	
+			$user_login	= $_POST['pt_user_login'];
 			$user_email	= $_POST['pt_user_email'];
-			
+
 			if( !check_ajax_referer( 'ajax-login-nonce', 'register-security', false ) ){
 				echo json_encode( array( 'error' => true, 'message' => '<div class="alert-no">' . esc_html__( 'Session token has expired, please reload the page and try again', 'eventchamp' ).'</div>' ) );
 				die();
 			}
-		 	
+
 		 	elseif( empty( $user_login ) || empty( $user_email ) ){
 				echo json_encode( array( 'error' => true, 'message' => '<div class="alert-no">' . esc_html__( 'Please fill all form fields', 'eventchamp' ) . '</div>' ) );
 				die();
 		 	}
-			
+
 			$errors = register_new_user($user_login, $user_email);
 			if( is_wp_error( $errors ) ){
 				$registration_error_messages = $errors->errors;
@@ -914,7 +915,7 @@
 			$attributes .= ! empty( $item->xfn ) ? ' rel="'    . esc_attr( $item->xfn ) .'"' : '';
 			$attributes .= ! empty( $item->url ) ? ' href="'   . esc_attr( $item->url ) .'"' : '';
 			$attributes .= ! empty( $item->url ) ? ' class="nav-link"' : '';
-			$attributes .= ($args->has_children) ? ' ' : ''; 
+			$attributes .= ($args->has_children) ? ' ' : '';
 
 			$item_output = $args->before;
 			$item_output .= '<a'. $attributes .'>';
@@ -951,7 +952,7 @@
 		$default_footer_style = ot_get_option( 'default_footer_style' );
 		$page_footer_style_1 = ot_get_option( 'page_footer_style_1' );
 		$page_footer_style_2 = ot_get_option( 'page_footer_style_1' );
-		
+
 		if( !$hide_footer == 'off' or $hide_footer == 'on' ) {
 			if ( is_page() or is_single() ) {
 				global $post;
@@ -969,7 +970,7 @@
 			if( !$footer_gap == 'off' or $footer_gap == "on" ) {
 				$footer_gap_status = "remove-gap";
 			} else {
-				$footer_gap_status = "remove-gap-removed";			
+				$footer_gap_status = "remove-gap-removed";
 			}
 
 			function eventchamp_copyright() {
@@ -990,7 +991,7 @@
 					echo '</div>';
 					}
 			}
-			
+
 			function eventchamp_footerstyle1() {
 				$page_footer_style_1 = ot_get_option( 'page_footer_style_1' );
 				if ( is_page() or is_single() ) {
@@ -1005,7 +1006,7 @@
 				if( !$footer_gap == 'off' or $footer_gap == "on" ) {
 					$footer_gap_status = "remove-gap";
 				} else {
-					$footer_gap_status = "remove-gap-removed";			
+					$footer_gap_status = "remove-gap-removed";
 				}
 				?>
 					<footer class="footer footer-style1 <?php echo esc_attr( $footer_gap_status ); ?>" id="Footer">
@@ -1032,7 +1033,7 @@
 					</footer>
 				<?php
 			}
-			
+
 			function eventchamp_footerstyle2() {
 				$page_footer_style_2 = ot_get_option( 'page_footer_style_1' );
 				if ( is_page() or is_single() ) {
@@ -1047,7 +1048,7 @@
 				if( !$footer_gap == 'off' or $footer_gap == "on" ) {
 					$footer_gap_status = "remove-gap";
 				} else {
-					$footer_gap_status = "remove-gap-removed";			
+					$footer_gap_status = "remove-gap-removed";
 				}
 				?>
 					<footer class="footer footer-style2 <?php echo esc_attr( $footer_gap_status ); ?>" id="Footer">
@@ -1074,63 +1075,63 @@
 					</footer>
 				<?php
 			}
-			
+
 			if( !$footer_status == 'off' or $footer_status == "on" ) {
-			
+
 				if( !$page_footer_style_1 == '0' and !empty( $page_footer_style_1  ) or !$page_footer_style_2 == '0' and !empty( $page_footer_style_2  ) ) {
-					
+
 					if ( is_page() or is_single() ) {
-						
+
 						if( $footer_style == "footer-style-2" ) {
 							eventchamp_footerstyle2();
 						} elseif( $footer_style == "footer-style-1" ) {
 							eventchamp_footerstyle1();
 						} else {
-							
+
 							if( $default_footer_style == "footer-style-2" ) {
 								eventchamp_footerstyle2();
 							} else {
 								eventchamp_footerstyle1();
 							}
-							
+
 						}
-						
+
 					} elseif( is_category() ) {
-					
+
 						$cat = get_queried_object();
 						$cat_id = $cat->term_id;
 						$eventchamp_category_footer_style = get_term_meta( $cat_id, 'eventchamp_category_footer_style', true );
-						
+
 						if( $eventchamp_category_footer_style == "footer-style-2" ) {
 							eventchamp_footerstyle2();
 						} elseif( $eventchamp_category_footer_style == "footer-style-1" ) {
 							eventchamp_footerstyle1();
 						} else {
-							
+
 							if( $default_footer_style == "footer-style-2" ) {
 								eventchamp_footerstyle2();
 							} else {
 								eventchamp_footerstyle1();
 							}
-							
+
 						}
-						
+
 					} else {
-						
+
 						if( $default_footer_style == "footer-style-2" ) {
 							eventchamp_footerstyle2();
 						} else {
 							eventchamp_footerstyle1();
 						}
-						
+
 					}
-				
+
 				} else {
 					echo '<div class="no-footer-blank"></div>';
 				}
 			} else {
 			}
-			
+
 		} else {
 		}
 	}
@@ -1339,7 +1340,7 @@
 							$schedule_time = $event_schedule_item["event_schedule_time"];
 							$schedule_description = $event_schedule_item["event_schedule_description"];
 							if( !empty( $event_schedule_item["event_schedule_speakers"] ) ) {
-								$schedule_speakers = $event_schedule_item["event_schedule_speakers"];							
+								$schedule_speakers = $event_schedule_item["event_schedule_speakers"];
 							} else {
 								$schedule_speakers = "";
 							}
@@ -1377,7 +1378,7 @@
 																	foreach ( $schedule_speakers as $schedule_speaker ) {
 																		if( !empty( $schedule_speaker ) ) {
 																			$schedule_speaker_ids[] = $schedule_speaker;
-																			$schedule_speaker_for_empty = $schedule_speaker;																			
+																			$schedule_speaker_for_empty = $schedule_speaker;
 																		}
 																	}
 
@@ -1388,7 +1389,7 @@
 																			'post_status' => 'publish',
 																			'ignore_sticky_posts' => true,
 																			'post_type' => 'speaker',
-																		); 
+																		);
 																		$wp_query = new WP_Query($args_posts);
 																		while ( $wp_query->have_posts() ) {
 																			$wp_query->the_post();
@@ -1416,7 +1417,7 @@
 																								} else {
 																									if( !empty( $speaker_profession ) ) {
 																										$output .= '<div class="profession">' . esc_attr( $speaker_profession ) . '</div>';
-																									}																						
+																									}
 																								}
 																							$output .= '</div>';
 																						}
@@ -1466,7 +1467,7 @@
 						'post_status' => 'publish',
 						'ignore_sticky_posts'    => true,
 						'post_type' => 'speaker',
-					); 
+					);
 					$wp_query = new WP_Query($args_posts);
 					while ( $wp_query->have_posts() ) {
 						$wp_query->the_post();
@@ -1516,7 +1517,7 @@
 											if( !empty( $social_media_facebook ) ) {
 												$output .= '<li><a href="' . esc_url( $social_media_facebook ) . '" class="facebook" title="' . esc_html__( 'Facebook', 'eventchamp' ) . '" target="_blank"><i class="fab fa-facebook-f"></i></a></li>';
 											}
-											
+
 											if( !empty( $social_media_twitter ) ) {
 												$output .= '<li><a href="' . esc_url( $social_media_twitter ) . '" class="twitter" title="' . esc_html__( 'Twitter', 'eventchamp' ) . '" target="_blank"><i class="fab fa-twitter"></i></a></li>';
 											}
@@ -1687,8 +1688,8 @@
 							$output .= esc_html__( 'Showing', 'eventchamp' );
 						} else {
 							$output .= esc_html__( 'Expired', 'eventchamp' );
-						}		
-					$output .= '</div>';	
+						}
+					$output .= '</div>';
 				}
 				return $output;
 			}
@@ -1794,7 +1795,7 @@
 		} else {
 			$post_related_count = "2";
 		}
-		
+
 		if( !$post_related_posts == 'off' or $post_related_posts == 'on' or !$post_post_navigation == 'off' or $post_post_navigation == 'on' ) {
 			echo '<div class="post-related-navigation post-content-element">';
 				if( !$post_related_posts == 'off' or $post_related_posts == 'on' ) {
@@ -1878,7 +1879,7 @@
 						if( $style == "style-1" ) {
 							echo eventchamp_event_list_style_1( $post_id = get_the_ID(), $image = "true", $category = "true", $date = "true", $location = "true", $excerpt = "true", $status = "true", $price = "false", $venue = "false" );
 						} elseif( $style == "style-2" ) {
-							echo eventchamp_event_list_style_3( $post_id = get_the_ID(), $image = "true", $category = "true", $date = "true", $location = "true", $excerpt = "true", $status = "true", $price = "false", $venue = "false" );							
+							echo eventchamp_event_list_style_3( $post_id = get_the_ID(), $image = "true", $category = "true", $date = "true", $location = "true", $excerpt = "true", $status = "true", $price = "false", $venue = "false" );
 						} else {
 							echo eventchamp_event_list_style_4( $post_id = get_the_ID(), $image = "true", $category = "true", $date = "true", $location = "true", $excerpt = "true", $status = "true", $price = "false", $venue = "false" );
 						}
@@ -2003,7 +2004,7 @@
 		if( !empty( $paged ) or !empty( $query ) ) {
 			$output = "";
 			$eventchamp_post_navigation_prev = '<span>' . esc_html__( 'Previous', 'eventchamp' ) . '</span>';
-			$eventchamp_post_navigation_next = '<span>' . esc_html__( 'Next', 'eventchamp' ) . '</span>';	
+			$eventchamp_post_navigation_next = '<span>' . esc_html__( 'Next', 'eventchamp' ) . '</span>';
 			$prev_link = get_previous_posts_link( $prev_text );
 			$next_link = get_next_posts_link( $next_text, $query->max_num_pages );
 			$prev_text = '<i class="fas fa-chevron-left" aria-hidden="true"></i>' . $eventchamp_post_navigation_prev;
@@ -2013,7 +2014,7 @@
 				$output .= '<nav class="post-pagination">';
 					$output .= '<ul>';
 						if( !empty( $prev_link ) ) {
-							$output .= '<li class="previous">' . get_previous_posts_link( $prev_text ) . '</li>';					
+							$output .= '<li class="previous">' . get_previous_posts_link( $prev_text ) . '</li>';
 						}
 						if( !empty( $next_link ) ) {
 							$output .= '<li class="next">' . get_next_posts_link( $next_text, $query->max_num_pages ) . '</li>';
@@ -2032,7 +2033,7 @@
 	* Menus
 	*
 	======*/
-	register_nav_menus( 
+	register_nav_menus(
 		array(
 			'mainmenu' => esc_html__( 'Main Menu', 'eventchamp' ),
 			'onepagemenu' => esc_html__( 'One Page Menu', 'eventchamp' ),
@@ -2161,63 +2162,63 @@
 		$social_share_link_title = esc_html__( 'Share to', 'eventchamp' );
 		$hide_general_post_share = ot_get_option( 'hide_general_post_share' );
 		$share_post_id = get_the_ID();
-		
+
 		$title = "";
 		$facebook = "";
 		$twitter = "";
 		$googleplus = "";
 		$linkedin = "";
-		$pinterest = "";	
+		$pinterest = "";
 		$reddit = "";
 		$delicious = "";
 		$stumbleupon = "";
 		$tumblr = "";
-		
+
 		if( !$hide_general_post_share == 'off' or $hide_general_post_share == "on" ) {
 			if( is_single() ) {
 				$title = '<div class="title">' . esc_html__( 'Share:', 'eventchamp' ) . '</div>';
 			}
 
 			if( !$social_share_facebook == 'off' or $social_share_facebook == 'on' ) {
-				$facebook = '<li><a class="share-facebook"  href="https://www.facebook.com/sharer/sharer.php?u=' . get_the_permalink() . '&t=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Facebook', 'eventchamp' ) . '" target="_blank"><i class="fab fa-facebook-f"></i>' . '<span>' . esc_html__( 'Facebook', 'eventchamp' ) . '</span>' . '</a></li>';
+				$facebook = '<li><a class="share-facebook"  href="//www.facebook.com/sharer/sharer.php?u=' . get_the_permalink() . '&t=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Facebook', 'eventchamp' ) . '" target="_blank"><i class="fab fa-facebook-f"></i>' . '<span>' . esc_html__( 'Facebook', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_twitter == 'off' or $social_share_twitter == 'on' ) {
-				$twitter = '<li><a class="share-twitter"  href="https://twitter.com/intent/tweet?url=' . get_the_permalink() . '&text=' . urlencode( get_the_title() ). '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Twitter', 'eventchamp' ) . '" target="_blank"><i class="fab fa-twitter"></i>' . '<span>' . esc_html__( 'Twitter', 'eventchamp' ) . '</span>' . '</a></li>';
+				$twitter = '<li><a class="share-twitter"  href="//twitter.com/intent/tweet?url=' . get_the_permalink() . '&text=' . urlencode( get_the_title() ). '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Twitter', 'eventchamp' ) . '" target="_blank"><i class="fab fa-twitter"></i>' . '<span>' . esc_html__( 'Twitter', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_googleplus == 'off' or $social_share_googleplus == 'on' ) {
-				$googleplus = '<li><a class="share-googleplus"  href="https://plus.google.com/share?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Google+', 'eventchamp' ) . '" target="_blank"><i class="fab fa-google-plus-g"></i>' . '<span>' . esc_html__( 'Google+', 'eventchamp' ) . '</span>' . '</a></li>';
+				$googleplus = '<li><a class="share-googleplus"  href="//plus.google.com/share?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Google+', 'eventchamp' ) . '" target="_blank"><i class="fab fa-google-plus-g"></i>' . '<span>' . esc_html__( 'Google+', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_linkedin == 'off' or $social_share_linkedin == 'on' ) {
-				$linkedin = '<li><a class="share-linkedin"  href="https://www.linkedin.com/shareArticle?mini=true&amp;url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Linkedin', 'eventchamp' ) . '" target="_blank"><i class="fab fa-linkedin-in"></i>' . '<span>' . esc_html__( 'LinkedIn', 'eventchamp' ) . '</span>' . '</a></li>';
+				$linkedin = '<li><a class="share-linkedin"  href="//www.linkedin.com/shareArticle?mini=true&amp;url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Linkedin', 'eventchamp' ) . '" target="_blank"><i class="fab fa-linkedin-in"></i>' . '<span>' . esc_html__( 'LinkedIn', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_pinterest == 'off' or $social_share_pinterest == 'on' ) {
-				$pinterest = '<li><a class="share-pinterest"  href="https://pinterest.com/pin/create/button/?url=' . get_the_permalink() . '&description=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Pinterest', 'eventchamp' ) . '" target="_blank"><i class="fab fa-pinterest-p"></i>' . '<span>' . esc_html__( 'Pinterest', 'eventchamp' ) . '</span>' . '</a></li>';
+				$pinterest = '<li><a class="share-pinterest"  href="//pinterest.com/pin/create/button/?url=' . get_the_permalink() . '&description=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Pinterest', 'eventchamp' ) . '" target="_blank"><i class="fab fa-pinterest-p"></i>' . '<span>' . esc_html__( 'Pinterest', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_reddit == 'off' or $social_share_reddit == 'on' ) {
-				$reddit = '<li><a class="share-reddit"  href="http://reddit.com/submit?url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Reddit', 'eventchamp' ) . '" target="_blank"><i class="fab fa-reddit-alien"></i>' . '<span>' . esc_html__( 'Reddit', 'eventchamp' ) . '</span>' . '</a></li>';
+				$reddit = '<li><a class="share-reddit"  href="//reddit.com/submit?url=' . get_the_permalink() . '&title=' . urlencode( get_the_title() ) . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Reddit', 'eventchamp' ) . '" target="_blank"><i class="fab fa-reddit-alien"></i>' . '<span>' . esc_html__( 'Reddit', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_delicious == 'off' or $social_share_delicious == 'on' ) {
-				$delicious = '<li><a class="share-delicious"  href="http://del.icio.us/post?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Delicious', 'eventchamp' ) . '" target="_blank"><i class="fab fa-delicious"></i>' . '<span>' . esc_html__( 'Delicious', 'eventchamp' ) . '</span>' . '</a></li>';
+				$delicious = '<li><a class="share-delicious"  href="//del.icio.us/post?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Delicious', 'eventchamp' ) . '" target="_blank"><i class="fab fa-delicious"></i>' . '<span>' . esc_html__( 'Delicious', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_stumbleupon == 'off' or $social_share_stumbleupon == 'on' ) {
-				$stumbleupon = '<li><a class="share-stumbleupon"  href="http://www.stumbleupon.com/submit?url=' . get_the_permalink() . '&title=' . get_the_title() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Stumbleupon', 'eventchamp' ) . '" target="_blank"><i class="fab fa-stumbleupon"></i>' . '<span>' . esc_html__( 'Stumbleupon', 'eventchamp' ) . '</span>' . '</a></li>';
+				$stumbleupon = '<li><a class="share-stumbleupon"  href="//www.stumbleupon.com/submit?url=' . get_the_permalink() . '&title=' . get_the_title() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Stumbleupon', 'eventchamp' ) . '" target="_blank"><i class="fab fa-stumbleupon"></i>' . '<span>' . esc_html__( 'Stumbleupon', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 
 			if( !$social_share_tumblr == 'off' or $social_share_tumblr == 'on' ) {
-				$tumblr = '<li><a class="share-tumblr"  href="http://www.tumblr.com/share/link?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Tumblr', 'eventchamp' ) . '" target="_blank"><i class="fab fa-tumblr"></i>' . '<span>' . esc_html__( 'Tumblr', 'eventchamp' ) . '</span>' . '</a></li>';
+				$tumblr = '<li><a class="share-tumblr"  href="//www.tumblr.com/share/link?url=' . get_the_permalink() . '" title="' . esc_attr( $social_share_link_title ) . esc_html__( 'Tumblr', 'eventchamp' ) . '" target="_blank"><i class="fab fa-tumblr"></i>' . '<span>' . esc_html__( 'Tumblr', 'eventchamp' ) . '</span>' . '</a></li>';
 			}
 		}
-		
+
 		$before = '<div class="post-share">' . $title . '<ul>';
 		$after = '</ul></div>';
-		
+
 		$output = $before . $facebook . $twitter . $googleplus . $linkedin . $pinterest . $reddit . $delicious . $stumbleupon . $tumblr . $after;
 		return $output;
 	}
@@ -2259,83 +2260,83 @@
 					<?php if( !$user_profile_social_media_facebook == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_facebook ); ?>" title="<?php echo esc_html__( 'Facebook', 'eventchamp' ); ?>" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_googleplus == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_googleplus ); ?>" title="<?php echo esc_html__( 'Google+', 'eventchamp' ); ?>" target="_blank" class="googleplus"><i class="fab fa-google-plus-g"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_instagram == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_instagram ); ?>" title="<?php echo esc_html__( 'Instagram', 'eventchamp' ); ?>" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_linkedin == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_linkedin ); ?>" title="<?php echo esc_html__( 'LinkedIn', 'eventchamp' ); ?>" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_vine == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_vine ); ?>" title="<?php echo esc_html__( 'Vine', 'eventchamp' ); ?>" target="_blank" class="vine"><i class="fab fa-vine"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_twitter == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_twitter ); ?>" title="<?php echo esc_html__( 'Twitter', 'eventchamp' ); ?>" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_pinterest == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_pinterest ); ?>" title="<?php echo esc_html__( 'Pinterest', 'eventchamp' ); ?>" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_youtube == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_youtube ); ?>" title="<?php echo esc_html__( 'YouTube', 'eventchamp' ); ?>" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_behance == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_behance ); ?>" title="<?php echo esc_html__( 'Behance', 'eventchamp' ); ?>" target="_blank" class="behance"><i class="fab fa-behance"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_deviantart == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_deviantart ); ?>" title="<?php echo esc_html__( 'DeviantArt', 'eventchamp' ); ?>" target="_blank" class="deviantart"><i class="fab fa-deviantart"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_digg == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_digg ); ?>" title="<?php echo esc_html__( 'Digg', 'eventchamp' ); ?>" target="_blank" class="digg"><i class="fab fa-digg"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_dribbble == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_dribbble ); ?>" title="<?php echo esc_html__( 'Dribbble', 'eventchamp' ); ?>" target="_blank" class="dribbble"><i class="fab fa-dribbble"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_flickr == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_flickr ); ?>" title="<?php echo esc_html__( 'Flickr', 'eventchamp' ); ?>" target="_blank" class="flickr"><i class="fab fa-flickr"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_github == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_github ); ?>" title="<?php echo esc_html__( 'GitHub', 'eventchamp' ); ?>" target="_blank" class="github"><i class="fab fa-github"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_lastfm == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_lastfm ); ?>" title="<?php echo esc_html__( 'Last.fm', 'eventchamp' ); ?>" target="_blank" class="lastfm"><i class="fab fa-lastfm"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_reddit == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_reddit ); ?>" title="<?php echo esc_html__( 'Reddit', 'eventchamp' ); ?>" target="_blank" class="reddit"><i class="fab fa-reddit-alien"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_soundcloud == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_soundcloud ); ?>" title="<?php echo esc_html__( 'SoundCloud', 'eventchamp' ); ?>" target="_blank" class="soundcloud"><i class="fab fa-soundcloud"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_tumblr == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_tumblr ); ?>" title="<?php echo esc_html__( 'Tumblr', 'eventchamp' ); ?>" target="_blank" class="tumblr"><i class="fab fa-tumblr"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_vimeo == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_vimeo ); ?>" title="<?php echo esc_html__( 'Vimeo', 'eventchamp' ); ?>" target="_blank" class="vimeo"><i class="fab fa-vimeo-v"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_vk == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_vk ); ?>" title="<?php echo esc_html__( 'VK', 'eventchamp' ); ?>" target="_blank" class="vk"><i class="fab fa-vk"></i></a></li>
 					<?php endif; ?>
-					
+
 					<?php if( !$user_profile_social_media_medium == ""  ) : ?>
 						<li><a href="<?php echo esc_url( $user_profile_social_media_medium ); ?>" title="<?php echo esc_html__( 'Medium', 'eventchamp' ); ?>" target="_blank" class="medium"><i class="fab fa-medium-m"></i></a></li>
 					<?php endif; ?>
@@ -2404,7 +2405,7 @@
 			$output .= '<div class="event-list-styles event-list-style-1">';
 				if( $image == 'true' ) {
 						if ( has_post_thumbnail( $post_id ) ) {
-							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'eventchamp-event-list' );
+							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'medium' );
 						} else {
 							$image_url = "";
 						}
@@ -2421,7 +2422,7 @@
 									$event_remaining_tickets = get_post_meta( get_the_ID(), 'event_remaining_tickets', true );
 									if( !empty( $event_remaining_tickets ) ) {
 										$product_id = wc_get_product( $event_remaining_tickets );
-										if( !empty( $product_id ) ) {	
+										if( !empty( $product_id ) ) {
 											$output .= '<div class="price">' . $product_id->get_price_html() . '</div>';
 										}
 									}
@@ -2571,7 +2572,7 @@
 			$output .= '<div class="event-list-styles event-list-style-3">';
 				if( $image == 'true' ) {
 						if ( has_post_thumbnail( $post_id ) ) {
-							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'eventchamp-event-list' );
+							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'medium' );
 						} else {
 							$image_url = "";
 						}
@@ -2682,7 +2683,7 @@
 			$output .= '<div class="event-list-styles event-list-style-4">';
 				if( $image == 'true' ) {
 						if ( has_post_thumbnail( $post_id ) ) {
-							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'eventchamp-event-list' );
+							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'medium' );
 						} else {
 							$image_url = "";
 						}
@@ -2808,7 +2809,7 @@
 						if( !empty( $image_url ) ) {
 							$output .= '<div class="image">';
 								$output .= '<a href="' . get_the_permalink( $post_id ) . '" title="' . the_title_attribute( array( 'echo' => 0, 'post' => $post_id ) ) . '"><img src="' . esc_url( $image_url[0] ) . '" alt="' . the_title_attribute( array( 'echo' => 0, 'post' => $post_id ) ) . '" /></a>';
-								
+
 								if( $location == 'true' ) {
 									$venue_location = get_post_meta( $post_id, 'venue_location', true );
 									if( !empty( $venue_location ) ) {
@@ -2893,7 +2894,7 @@
 				$output .= '<div class="post-list-styles post-list-style-1 sticky-post">';
 			} else {
 				$output .= '<div class="post-list-styles post-list-style-1">';
-			}			
+			}
 				if( $image == 'true' ) {
 						if ( has_post_thumbnail( $post_id ) ) {
 							$image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'eventchamp-big-post' );
@@ -3065,7 +3066,7 @@
 				endwhile;
 			echo '</div>';
 		}
-		
+
 		function eventchamp_archive_post_list_style2() {
 			echo '<div class="archive-post-list-style-2 post-list box-layout">';
 				while ( have_posts() ) : the_post();
@@ -3083,15 +3084,15 @@
 		} else {
 			$archive_archive_post_list_style = ot_get_option( 'archive_archive_post_list_style' );
 		}
-		
+
 		if( is_category() ) {
 			$cat = get_queried_object();
 			$cat_id = $cat->term_id;
 			$eventchamp_category_category_post_list_style = get_term_meta( $cat_id, 'eventchamp_category_category_post_list_style', true );
 			if( $eventchamp_category_category_post_list_style == "post-list-style-1" ) {
-				eventchamp_archive_post_list_style1();				
+				eventchamp_archive_post_list_style1();
 			} elseif( $eventchamp_category_category_post_list_style == "post-list-style-2" ) {
-				eventchamp_archive_post_list_style2();				
+				eventchamp_archive_post_list_style2();
 			} else {
 				if( $archive_archive_post_list_style == "style2" ) {
 					eventchamp_archive_post_list_style2();
@@ -3141,12 +3142,12 @@
 					$custom_breadcrumbs = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'eventchamp-page-banner' );
 					echo '<div class="page-title-breadcrumbs-image" style="background-image:url(' . esc_url( $custom_breadcrumbs["0"] ) . ');"></div>';
 				} else {
-					echo '<div class="page-title-breadcrumbs-image"></div>';						
-				}	
+					echo '<div class="page-title-breadcrumbs-image"></div>';
+				}
 			} else {
 				echo '<div class="page-title-breadcrumbs-image"></div>';
 			}
-			
+
 			echo '<div class="container">';
 				echo '<h1>';
 					if( is_post_type_archive( 'event' ) or is_post_type_archive( 'speaker' ) or is_post_type_archive( 'venue' ) ) {
@@ -3164,7 +3165,7 @@
 					} elseif( is_search() ) {
 						$search_search_title = ot_get_option( 'search_search_title' );
 						if( !$search_search_title == 'off' or $search_search_title == 'on' ) {
-							$allowed_html = array ( 'span' => array() ); wp_kses ( printf( __( '<span>%s</span>', 'eventchamp' ), get_search_query() ) , $allowed_html ); 
+							$allowed_html = array ( 'span' => array() ); wp_kses ( printf( __( '<span>%s</span>', 'eventchamp' ), get_search_query() ) , $allowed_html );
 						}
 					} elseif( is_author() ) {
 						printf( esc_html__( '%s', 'eventchamp' ), '' . get_the_author() . '' );
@@ -3253,7 +3254,7 @@
 				'before_title' => '<div class="widget-title">',
 				'after_title' => '</div>',
 			));
-			
+
 			register_sidebar(array(
 				'id' => 'shop-sidebar',
 				'name' => esc_html__( 'Shop Sidebar', 'eventchamp' ),
@@ -3318,31 +3319,31 @@
 			} else {
 				$layout_select = "";
 			}
-			
+
 			if( $layout_select == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 fullwidthsidebar">';
 			}
-			
+
 			elseif( $layout_select == 'left' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-right left pull-right fixedSidebar">';
 			}
-			
+
 			elseif( $layout_select == 'right' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left right fixedSidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 fullwidthsidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-right left pull-right fixedSidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left right fixedSidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left right fixedSidebar">';
 			}
@@ -3386,31 +3387,31 @@
 			} else {
 				$layout_select = "";
 			}
-			
+
 			if( $layout_select == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 fullwidthsidebar">';
 			}
-			
+
 			elseif( $layout_select == 'left' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-right left pull-right fixedSidebar">';
 			}
-			
+
 			elseif( $layout_select == 'right' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left right fixedSidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 fullwidthsidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-right left pull-right fixedSidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left right fixedSidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left right fixedSidebar">';
 			}
@@ -3457,37 +3458,37 @@
 				$sidebar_position = ot_get_option( 'sidebar_position' );
 			}
 
-			if ( is_page() or is_single() ) {			
+			if ( is_page() or is_single() ) {
 				global $post;
 				$layout_select = get_post_meta( $post->ID, 'sidebar_position', true);
 			} else {
 				$layout_select = "";
 			}
-			
+
 			if( $layout_select == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 hide fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $layout_select == 'left' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right left fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $layout_select == 'right' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right right fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 hide fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right left fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right right fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right fixedSidebar"><div class="theiaStickySidebar">';
 			}
@@ -3526,37 +3527,37 @@
 				$sidebar_position = ot_get_option( 'sidebar_position' );
 			}
 
-			if ( is_page() or is_single() ) {			
+			if ( is_page() or is_single() ) {
 				global $post;
 				$layout_select = get_post_meta( $post->ID, 'sidebar_position', true);
 			} else {
 				$layout_select = "";
 			}
-			
+
 			if( $layout_select == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 hide fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $layout_select == 'left' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right left fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $layout_select == 'right' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right right fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 hide fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right left fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right right fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right fixedSidebar"><div class="theiaStickySidebar">';
 			}
@@ -3601,19 +3602,19 @@
 			} else {
 				$sidebar_position = ot_get_option( 'sidebar_position' );
 			}
-			
+
 			if( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 fullwidthsidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-right site-content-left pull-right fixedSidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left fixedSidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left fixedSidebar">';
 			}
@@ -3650,19 +3651,19 @@
 			} else {
 				$sidebar_position = ot_get_option( 'sidebar_position' );
 			}
-			
+
 			if( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 fullwidthsidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-right site-content-left pull-right fixedSidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left fixedSidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-8 col-sm-12 col-xs-12 site-content-left fixedSidebar">';
 			}
@@ -3707,19 +3708,19 @@
 			} else {
 				$sidebar_position = ot_get_option( 'sidebar_position' );
 			}
-			
+
 			if( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 hide fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right left fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right right fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right fixedSidebar"><div class="theiaStickySidebar">';
 			}
@@ -3756,19 +3757,19 @@
 			} else {
 				$sidebar_position = ot_get_option( 'sidebar_position' );
 			}
-			
+
 			if( $sidebar_position == 'nosidebar' ) {
 				echo '<div class="col-md-12 col-sm-12 col-xs-12 hide fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'left' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right left fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			elseif( $sidebar_position == 'right' ) {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right right fixedSidebar"><div class="theiaStickySidebar">';
 			}
-			
+
 			else {
 				echo '<div class="col-md-4 col-sm-12 col-xs-12 site-content-right fixedSidebar"><div class="theiaStickySidebar">';
 			}

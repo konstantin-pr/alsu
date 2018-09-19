@@ -1,0 +1,74 @@
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+### marker BROWSER CACHE start ###
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType application/pdf A6592000
+ExpiresByType image/x-icon A6592000
+ExpiresByType image/vnd.microsoft.icon A6592000
+ExpiresByType image/svg+xml A6592000
+
+ExpiresByType image/jpg A6592000
+ExpiresByType image/jpeg A6592000
+ExpiresByType image/png A6592000
+ExpiresByType image/gif A6592000
+ExpiresByType image/webp A6592000
+
+ExpiresByType video/ogg A6592000
+ExpiresByType audio/ogg A6592000
+ExpiresByType video/mp4 A6592000
+ExpiresByType video/webm A6592000
+
+ExpiresByType text/css A6592000
+ExpiresByType text/javascript A6592000
+ExpiresByType application/javascript A6592000
+ExpiresByType application/x-javascript A6592000
+
+ExpiresByType application/x-font-ttf A6592000
+ExpiresByType application/x-font-woff A6592000
+ExpiresByType application/font-woff A6592000
+ExpiresByType application/font-woff2 A6592000
+ExpiresByType application/vnd.ms-fontobject A6592000
+ExpiresByType font/ttf A6592000
+ExpiresByType font/woff A6592000
+ExpiresByType font/woff2 A6592000
+
+</IfModule>
+### marker BROWSER CACHE end ###
+
+### marker MINIFY start ###
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} ^(.*)/min/(\w+)\.(css|js)$
+RewriteCond %1/wp-content/cache/$2/$1.$2 -f
+RewriteRule min/(\w+)\.(css|js) wp-content/cache/$2/$1.$2 [L]
+</IfModule>
+### marker MINIFY end ###
+
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Options +FollowSymLinks
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+
+RewriteEngine On
+<FilesMatch "\.(html|htm|js|css)$">
+  FileETag None
+  <IfModule mod_headers.c>
+    Header unset ETag
+    Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "Wed, 12 Jan 1980 05:00:00 GMT"
+  </IfModule>
+</FilesMatch>
+# END WordPress
+
+

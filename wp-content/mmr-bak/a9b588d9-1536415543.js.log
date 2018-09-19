@@ -1,0 +1,24 @@
+2018-09-19T08:20:43+00:00 - MERGED:
+ - fullcalendar-locale-all - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/locale-all.js
+ - waypoints - https://dailyconf.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js
+ - scrollbar - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/scrollbar.min.js
+ - counterup - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/counterup.min.js
+ - flexmenu - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/flexmenu.min.js
+ - plyr-io - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/plyr.min.js
+ - countdown - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/countdown.min.js
+ - swiper - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/swiper.min.js
+ - classie - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/classie.min.js
+ - selectfx - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/selectfx.js
+ - eventchamp - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/eventchamp.js
+ - ajax-login-register-script - https://dailyconf.com/wp-content/themes/eventchamp/include/assets/js/user-box.js
+ - mailchimp-top-bar - https://dailyconf.com/wp-content/plugins/mailchimp-top-bar/assets/js/script.min.js - unminified version used
+ - wp-embed - /wp-includes/js/wp-embed.min.js - unminified version used
+ - wpb_composer_front_js - https://dailyconf.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js
+ - tooltipster - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/tooltipster/js/jquery.tooltipster.min.js - unminified version used
+ - mousewheel - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/malihu-custom-scrollbar/jquery.mousewheel.min.js
+ - malihu-custom-scrollbar - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.min.js
+ - malihu-custom-scrollbar-concat - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.concat.min.js
+ - ion.range-slider - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/ion.range-slider/ion.rangeSlider.min.js - unminified version used
+ - chosen-drop-down - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/chosen/chosen.jquery.min.js - unminified version used
+ - icheck-jquery - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/js/icheck/icheck.min.js - unminified version used
+ - mdf_posts_messeger_js - https://dailyconf.com/wp-content/plugins/wp-meta-data-filter-and-taxonomy-filter/ext/mdf_posts_messenger//js/posts_messenger.js
